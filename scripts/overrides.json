@@ -200,5 +200,40 @@
   "year": 1888,
   "built": "founded 1888; own building from 1900",
   "description": "Founded in 1888 in a room of Narkeldanga High School by Gurudas Banerjee, Rajendralal Mitra, Rakhal Chandra Ghosh and the schoolmaster Harish Chandra Chakraborty, to give the eastern suburbs a library. Chakraborty ran it out of his own house when the school room proved too small, and bought land for a building of its own in 1900. It holds over thirty thousand books."
+ },
+ "Q44143387": {
+  "year": 1695,
+  "built": "1695",
+  "description": "The octagonal mausoleum Sir Charles Eyre raised in 1695 over the simple grave of Job Charnock, in the churchyard of St. John's. Eyre had married Charnock's daughter Mary and succeeded him as Governor of Fort William. The stone it is built of, a dark hornblende, was named charnockite after him."
+ },
+ "osm-hong-kong-house": {
+  "year": 1922,
+  "built": "1922",
+  "architects": [
+   "Palmer & Turner"
+  ],
+  "description": "The fort-like Calcutta house of the Hongkong and Shanghai Banking Corporation on the south side of Dalhousie Square, built in 1922 to designs by Palmer & Turner of Hong Kong, who also did the bank's building on the Shanghai Bund and its Hong Kong head office. Edwardian and neo-Georgian, and meant to look immovable."
+ },
+ "osm-nam-soon-church": {
+  "year": 1820,
+  "built": "1820",
+  "description": "The oldest of the Tiretta Bazar clan temples, dating from 1820 — older than the Chinatown around it. Like the others it was a hui guan: temple, meeting hall and mutual-aid society at once, for a community a long way from home. The Nam Soon association keeps its own burial ground on Mathur Babu Lane."
+ },
+ "osm-gee-hing-church": {
+  "year": 1888,
+  "built": "founded 1888; in this building from 1920"
+ },
+ "osm-sea-voi-church": {
+  "year": 1908,
+  "built": "1908"
+ },
+ "osm-chun-nee-thong-church": {
+  "year": 1858,
+  "built": "founded 1858"
+ },
+ "gmap-zohra-begum-masjid": {
+  "year": 1941,
+  "built": "1941",
+  "description": "Built in 1941 in the Deccani manner, unknown in Bengal at the time — six domes in two rows of three, four minarets at the corners and four smaller ones — and endowed with thirty-seven bighas of waqf land for its upkeep. It stands in the Tollygunge quarter where Tipu Sultan's family lived out their exile after Seringapatam."
  }
 }

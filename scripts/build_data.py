@@ -454,6 +454,16 @@ def main():
             "date_source": year_source,
         })
 
+    # Sites with no date anywhere are dropped: English Wikipedia, the heritage
+    # blogs, the KMC register and Wikidata were all searched, and for these the
+    # year simply is not recorded. Hand-added sites are kept regardless — they
+    # were put on the map deliberately and each has an account behind it.
+    manual_ids = {i["qid"] for i in load_manual()}
+    undated = [m for m in monuments if not m["year"] and m["id"] not in manual_ids]
+    if undated:
+        print(f"  dropped as undated: {len(undated)}")
+    monuments = [m for m in monuments if m not in undated]
+
     dropped = [m for m in monuments
                if m["category"] in POST_1947_DROP_CATEGORIES
                and (m["year"] or 0) > 1947
