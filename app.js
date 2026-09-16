@@ -61,7 +61,7 @@ const FALLBACK_GLYPH = '<circle cx="12" cy="12" r="5"/>';
 const state = {
   monuments: [],
   eras: [],
-  groupBy: 'category',     // the map opens grouped by what each building is
+  groupBy: 'era',
   layers: new Map(),        // group name -> { cluster, colour, visible, monuments }
   markers: new Map(),       // monument id -> { marker, group }
   fuse: null,

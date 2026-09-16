@@ -41,10 +41,10 @@ host. If you do, set `og:image` in `index.html` to the absolute URL of
 
 Two ways to slice it, switched in the sidebar:
 
-- **By era** — Early Settlement (to 1756), Company Raj (1757–1857), Imperial
-  Capital (1858–1911), Late Raj & Art Deco (1912–1947), Independent India
-  (1948–), and the handful nobody recorded a date for.
-- **By type** (the default) — sixteen categories, from *Temple & Thakurbari* to
+- **By era** (the default) — Early Settlement (to 1756), Company Raj
+  (1757–1857), Imperial Capital (1858–1911), Late Raj & Art Deco (1912–1947),
+  Independent India (1948–), and the handful nobody recorded a date for.
+- **By type** — sixteen categories, from *Temple & Thakurbari* to
   *Bridge, Tower & Public Works*.
 
 The pin's colour follows whichever grouping is active; the glyph inside it
