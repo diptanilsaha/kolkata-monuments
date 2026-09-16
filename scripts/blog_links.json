@@ -1,48 +1,13 @@
 {
- "Q4838076": {
-  "name": "Babughat",
-  "title": "Babughat, Strand Road",
-  "url": "https://double-dolphin.blogspot.com/2015/11/babughat-strand-road-calcutta-kolkata.html"
- },
- "Q13059169": {
-  "name": "Basri Shah Mosque",
-  "title": "Basri Shah Masjid: Calcutta's Oldest Mosque (err...maybe!)",
-  "url": "https://double-dolphin.blogspot.com/2015/12/basri-shah-masjid-oldest-mosque-calcutta-kolkata.html"
- },
- "Q40670133": {
-  "name": "Beth-El Synagogue",
-  "title": "Beth El Synagogue, Pollock Street",
-  "url": "https://double-dolphin.blogspot.com/2015/11/beth-el-synagogue-pollock-street-calcutta-kolkata.html"
- },
- "Q67590242": {
-  "name": "Bhot Bagan Math",
-  "title": "Bhot Bagan Math, Ghusuri, Howrah",
-  "url": "https://double-dolphin.blogspot.com/2015/05/bhot-bagan-math-tibetan-buddhist-temple-howrah-ghusuri.html"
- },
- "Q1202492": {
-  "name": "Black Hole of Calcutta",
-  "title": "The Calcutta Collectorate and The Black Hole of Calcutta, Dalhousie Square",
+ "osm-calcutta-collectorate": {
+  "name": "The Calcutta Collectorate",
+  "title": "The Calcutta Collectorate",
   "url": "https://double-dolphin.blogspot.com/2015/06/calcutta-collectorate-black-hole-kolkata.html"
- },
- "Q1026391": {
-  "name": "Calcutta High Court",
-  "title": "Walter Granville's Incredibly Gothic High Court",
-  "url": "https://double-dolphin.blogspot.com/2014/05/walter-granvilles-incredibly-gothic.html"
- },
- "Q5052457": {
-  "name": "Cathedral of the Most Holy Rosary",
-  "title": "Portuguese Church, Brabourne Road",
-  "url": "https://double-dolphin.blogspot.com/2015/04/portuguese-church-brabourne-road.html"
  },
  "Q56245193": {
   "name": "Currency Building",
-  "title": "The Currency Building: A Sunday Morning Adventure",
+  "title": "Currency Building",
   "url": "https://double-dolphin.blogspot.com/2014/03/the-currency-building-sunday-morning.html"
- },
- "Q1157765": {
-  "name": "Dakshineswar Kali Temple",
-  "title": "The REAL Dakshineswar Temple",
-  "url": "https://double-dolphin.blogspot.com/2018/11/the-real-dakshineswar-temple.html"
  },
  "Q68470889": {
   "name": "Esplanade Mansions",
@@ -51,13 +16,153 @@
  },
  "Q3350712": {
   "name": "General Post Office, Kolkata",
-  "title": "General Post Office (GPO), Dalhousie Square",
+  "title": "General Post Office (GPO)",
   "url": "https://double-dolphin.blogspot.com/2015/10/general-post-office-gpo-calcutta-kolkata.html"
+ },
+ "osm-gillander-house": {
+  "name": "Gillander House",
+  "title": "Gillander House",
+  "url": "https://double-dolphin.blogspot.com/2015/03/gillander-house-clive-street.html"
+ },
+ "Q1026391": {
+  "name": "Calcutta High Court",
+  "title": "High Court",
+  "url": "https://double-dolphin.blogspot.com/2014/05/walter-granvilles-incredibly-gothic.html"
+ },
+ "osm-hong-kong-house": {
+  "name": "Hong Kong House",
+  "title": "Hong Kong House",
+  "url": "https://double-dolphin.blogspot.com/2014/09/hong-kong-house-dalhousie-square-south.html"
+ },
+ "osm-royal-insurance-building": {
+  "name": "Royal Insurance Building",
+  "title": "Royal Insurance Building",
+  "url": "https://double-dolphin.blogspot.com/2014/06/royal-insurance-building-dalhousie.html"
+ },
+ "Q6427313": {
+  "name": "Kolkata Town Hall",
+  "title": "Town Hall",
+  "url": "https://double-dolphin.blogspot.com/2014/08/TownHallEsplanadeRowWest.html"
+ },
+ "Q985758": {
+  "name": "Writers' Building",
+  "title": "Writers’ Building",
+  "url": "https://double-dolphin.blogspot.com/2014/03/justice-science-commerce-agriculture.html"
+ },
+ "osm-nizam-palace": {
+  "name": "Nizam Palace",
+  "title": "Nizam Palace",
+  "url": "https://double-dolphin.blogspot.com/2015/01/nizam-palace-and-legend-of-jc-galstaun.html"
+ },
+ "Q40670133": {
+  "name": "Beth-El Synagogue",
+  "title": "Beth El Synagogue",
+  "url": "https://double-dolphin.blogspot.com/2015/11/beth-el-synagogue-pollock-street-calcutta-kolkata.html"
+ },
+ "Q69385831": {
+  "name": "St. Stephen's Church",
+  "title": "St. Stephen’s Church",
+  "url": "https://double-dolphin.blogspot.com/2014/11/st-stephens-church-diamond-harbour-road.html"
  },
  "Q69392103": {
   "name": "Hastings Chapel",
-  "title": "Hastings Chapel, Clyde Road",
+  "title": "Hastings Chapel",
   "url": "https://double-dolphin.blogspot.com/2014/10/hastings-chapel-clyde-road.html"
+ },
+ "Q3051967": {
+  "name": "St. John's Church",
+  "title": "St. John’s Church",
+  "url": "https://double-dolphin.blogspot.com/2014/02/st-johns-church.html"
+ },
+ "Q5052457": {
+  "name": "Cathedral of the Most Holy Rosary",
+  "title": "Portuguese Church (Church of the Most Holy Rosary)",
+  "url": "https://double-dolphin.blogspot.com/2015/04/portuguese-church-brabourne-road.html"
+ },
+ "Q22343101": {
+  "name": "St. Andrew's Church",
+  "title": "St. Andrew's Church",
+  "url": "https://double-dolphin.blogspot.com/2015/07/st-andrews-church-dalhousie-square-calcutta-kolkata.html"
+ },
+ "osm-nipponzan-myohoji": {
+  "name": "Nipponzan Myohoji Japanese Buddhist Temple",
+  "title": "Nipponzan Myohoji Japanese Buddhist Temple",
+  "url": "https://double-dolphin.blogspot.com/2015/05/nipponzan-myohoji-japanese-buddhist-temple-calcutta-kolkata.html"
+ },
+ "osm-myanmar-buddhist-temple": {
+  "name": "Myanmar (Burma) Buddhist Temple",
+  "title": "Myanmar (Burma) Buddhist Temple",
+  "url": "https://double-dolphin.blogspot.com/2015/05/myanmar-burma-buddhist-temple-calcutta-kolkata.html"
+ },
+ "Q12062296": {
+  "name": "Nakhoda Masjid",
+  "title": "Nakhoda Masjid",
+  "url": "https://double-dolphin.blogspot.com/2014/05/nakhoda-masjid.html"
+ },
+ "Q13059169": {
+  "name": "Basri Shah Mosque",
+  "title": "Basri Shah Masjid",
+  "url": "https://double-dolphin.blogspot.com/2015/12/basri-shah-masjid-oldest-mosque-calcutta-kolkata.html"
+ },
+ "osm-toong-on-church": {
+  "name": "Toong On Church",
+  "title": "Toong On Church",
+  "url": "https://double-dolphin.blogspot.com/2015/09/toong-on-church-chinese-temple-nanking-restaurant-calcutta-kolkata.html"
+ },
+ "osm-sea-ip-church": {
+  "name": "Sea Ip Church",
+  "title": "Sea Ip Church",
+  "url": "https://double-dolphin.blogspot.com/2015/12/sea-ip-church-chinese-temple-calcutta-kolkata.html"
+ },
+ "Q7245233": {
+  "name": "Prinsep Ghat",
+  "title": "Prinsep Ghat",
+  "url": "https://double-dolphin.blogspot.com/2015/06/prinsep-ghat-calcutta-kolkata.html"
+ },
+ "Q4838076": {
+  "name": "Babughat",
+  "title": "Babu Ghat",
+  "url": "https://double-dolphin.blogspot.com/2015/11/babughat-strand-road-calcutta-kolkata.html"
+ },
+ "osm-jewish-cemetery-narkeldanga": {
+  "name": "Jewish Cemetery, Narkeldanga",
+  "title": "Jewish Cemetery",
+  "url": "https://double-dolphin.blogspot.com/2014/10/jewish-cemetery-narkeldanga-main-road.html"
+ },
+ "Q107132252": {
+  "name": "North Park Street Cemetery",
+  "title": "North Park Street Cemetery",
+  "url": "https://double-dolphin.blogspot.com/2014/07/north-park-street-cemetery-and.html"
+ },
+ "Q2972549": {
+  "name": "South Park Street Cemetery",
+  "title": "South Park Street Cemetery",
+  "url": "https://double-dolphin.blogspot.com/2015/02/the-south-park-street-cemetery.html"
+ },
+ "Q7437647": {
+  "name": "Scottish Cemetery",
+  "title": "Scottish Cemetery",
+  "url": "https://double-dolphin.blogspot.com/2013/12/scottish-cemetery.html"
+ },
+ "Q15241748": {
+  "name": "Lascar War Memorial",
+  "title": "Lascar War Memorial",
+  "url": "https://double-dolphin.blogspot.com/2014/07/lascar-war-memorial-napier-road-calcutta-kolkata.html"
+ },
+ "Q1202492": {
+  "name": "Black Hole of Calcutta",
+  "title": "The Calcutta Collectorate and The Black Hole of Calcutta, Dalhousie Square",
+  "url": "https://double-dolphin.blogspot.com/2015/06/calcutta-collectorate-black-hole-kolkata.html"
+ },
+ "Q67590242": {
+  "name": "Bhot Bagan Math",
+  "title": "Bhot Bagan Math, Ghusuri, Howrah",
+  "url": "https://double-dolphin.blogspot.com/2015/05/bhot-bagan-math-tibetan-buddhist-temple-howrah-ghusuri.html"
+ },
+ "Q1157765": {
+  "name": "Dakshineswar Kali Temple",
+  "title": "The REAL Dakshineswar Temple",
+  "url": "https://double-dolphin.blogspot.com/2018/11/the-real-dakshineswar-temple.html"
  },
  "Q66809965": {
   "name": "Henry Martyn's Pagoda",
@@ -69,64 +174,24 @@
   "title": "Kamarghat Dwadosh Shiv Mandir, Prankrishna Chandra Lane",
   "url": "https://double-dolphin.blogspot.com/2015/08/Kamarghat-Dwadosh-Shiv-Mandir-calcutta-kolkata.html"
  },
- "Q6427313": {
-  "name": "Kolkata Town Hall",
-  "title": "Town Hall, Esplanade Row West",
-  "url": "https://double-dolphin.blogspot.com/2014/08/TownHallEsplanadeRowWest.html"
- },
- "Q15241748": {
-  "name": "Lascar War Memorial",
-  "title": "Lascar War Memorial, Napier Road",
-  "url": "https://double-dolphin.blogspot.com/2014/07/lascar-war-memorial-napier-road-calcutta-kolkata.html"
- },
  "Q6730097": {
   "name": "Magen David Synagogue",
   "title": "Maghen David Synagogue, Canning Street",
   "url": "https://double-dolphin.blogspot.com/2014/10/maghen-david-synagogue-canning-street.html"
- },
- "Q12062296": {
-  "name": "Nakhoda Masjid",
-  "title": "Nakhoda Masjid",
-  "url": "https://double-dolphin.blogspot.com/2014/05/nakhoda-masjid.html"
- },
- "Q7245233": {
-  "name": "Prinsep Ghat",
-  "title": "Prinsep Ghat",
-  "url": "https://double-dolphin.blogspot.com/2015/06/prinsep-ghat-calcutta-kolkata.html"
- },
- "Q7437647": {
-  "name": "Scottish Cemetery",
-  "title": "Scottish Cemetery",
-  "url": "https://double-dolphin.blogspot.com/2013/12/scottish-cemetery.html"
  },
  "Q56688361": {
   "name": "Sibtainabad Imambara",
   "title": "Garden Reach: The Forgotten Kingdom of Nawab Wajid Ali Shah",
   "url": "https://double-dolphin.blogspot.com/2017/03/garden-reach-metiabruz-nawab-wajid-ali-shah-calcutta-kolkata.html"
  },
- "Q2972549": {
-  "name": "South Park Street Cemetery",
-  "title": "The South Park Street Cemetery",
-  "url": "https://double-dolphin.blogspot.com/2015/02/the-south-park-street-cemetery.html"
- },
- "Q22343101": {
-  "name": "St. Andrew's Church",
-  "title": "St. Andrew's Church, Dalhousie Square",
-  "url": "https://double-dolphin.blogspot.com/2015/07/st-andrews-church-dalhousie-square-calcutta-kolkata.html"
- },
- "Q3051967": {
-  "name": "St. John's Church",
-  "title": "St. John’s Church",
-  "url": "https://double-dolphin.blogspot.com/2014/02/st-johns-church.html"
- },
- "Q69385831": {
-  "name": "St. Stephen's Church",
-  "title": "St. Stephen's Church, Diamond Harbour Road",
-  "url": "https://double-dolphin.blogspot.com/2014/11/st-stephens-church-diamond-harbour-road.html"
- },
  "Q1356352": {
   "name": "Victoria Memorial",
   "title": "6 Things You Don't Know About Calcutta's Victoria Memorial",
   "url": "https://double-dolphin.blogspot.com/2015/11/6-things-you-dont-know-about-calcuttas-victoria-memorial.html"
+ },
+ "Q137780795": {
+  "name": "Chinese Temple, Achipur",
+  "title": "Forgotten History: The Gunpowder Magazine of Achipur",
+  "url": "https://double-dolphin.blogspot.com/2018/03/forgotten-history-gunpowder-magazine-achipur.html"
  }
 }

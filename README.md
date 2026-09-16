@@ -1,6 +1,6 @@
 # The Many Calcuttas — a city in layers
 
-An interactive map of the heritage of Kolkata and its suburbs: 324 sites, each
+An interactive map of the heritage of Kolkata and its suburbs: 335 sites, each
 plotted where it stands and coloured by the era that built it.
 
 ![The map](preview.jpg)
@@ -28,12 +28,12 @@ host. If you do, set `og:image` in `index.html` to the absolute URL of
 
 | | |
 |---|---|
-| Sites | 324 |
-| With a construction date | 184 |
-| With a photograph | 284 |
-| With a street address | 246 |
-| With a further-reading link | 26 |
-| Coverage | ~25 km from Lal Dighi |
+| Sites | 335 |
+| With a construction date | 188 |
+| With a photograph | 281 |
+| With a street address | 257 |
+| With a further-reading link | 39 |
+| Coverage | ~25 km from Lal Dighi, plus Achipur at 27 km |
 
 Two ways to slice it, switched in the sidebar:
 
@@ -54,7 +54,8 @@ always says what the building is.
 | [Wikidata](https://query.wikidata.org/) | Coordinates, construction dates, architects, architectural styles, images |
 | [English Wikipedia](https://en.wikipedia.org/w/api.php) | The descriptions and lead photographs |
 | Archaeological Survey of India / West Bengal Heritage Commission / Indian Railways heritage inventory | Reached through their Wikidata heritage designations |
-| [double-dolphin.blogspot.com](https://double-dolphin.blogspot.com/) | Deepanjan Ghosh's writing on Kolkata heritage, linked as further reading from 26 sites |
+| [double-dolphin.blogspot.com](https://double-dolphin.blogspot.com/) | Deepanjan Ghosh's [heritage index](https://double-dolphin.blogspot.com/p/blog-page_27.html), linked as further reading from 39 sites |
+| OpenStreetMap | Coordinates for sixteen sites that Wikidata does not carry — the Tiretta Bazar Chinese temples among them |
 
 A site is on the map if it carries a formal heritage designation *and* has a
 published coordinate, or if it is a well-known Kolkata landmark that the
@@ -64,17 +65,33 @@ the old cinema halls). Those additions are listed by name in
 
 ### On further reading
 
-26 sites link to a post on Deepanjan Ghosh's blog. Every one of those links was
-checked by hand and lives in `scripts/blog_links.json`. Title similarity alone
-is not enough: the blog has posts on the Victoria Memorial in *Lucknow*,
-Gillander House on *Clive Street* and the Small Causes Court on *Bankshall
-Street*, none of which are the Kolkata monuments whose names they resemble.
-Running `blog_index.py` re-fetches the feed and prints candidates for review; it
-never adds them itself.
+39 sites link to a post on Deepanjan Ghosh's blog, which is the best sustained
+piece of writing on Kolkata's buildings anywhere online. The links are taken
+from his own categorised [heritage index](https://double-dolphin.blogspot.com/p/blog-page_27.html),
+which names 79 buildings, and every one was checked by hand before it went into
+`scripts/blog_links.json`. Title similarity alone is not enough: the blog also
+has posts on the Victoria Memorial in *Lucknow*, on Gillander House on *Clive
+Street*, and on the Small Causes Court on *Bankshall Street*, none of which are
+the monuments whose names they resemble. `blog_index.py` re-fetches the feed and
+prints candidates for review; it never adds them itself.
+
+### What is on his list but not on this map
+
+Of the 79 buildings on that index, 30 are on this map — eleven of them added
+because of it. The other 49 are mostly the mercantile palaces of Dalhousie Square —
+Royal Exchange, Martin & Co., Ralli Brothers, Turner Morrison, the Chartered
+Bank, McLeod House, Temple Chambers, Ezra Mansion and the rest. **None of them
+has a published coordinate.** They are absent from OpenStreetMap, and where
+Wikidata has an item at all (the Chartered Bank Building, for one) it carries no
+location. They sit within a few hundred metres of each other on Clive Street,
+Royal Exchange Place and Council House Street, so a street-level guess would put
+several buildings on the same point and none of them on the right one. Plotting
+them properly needs somebody to fix their positions on the ground or in
+OpenStreetMap; guessing was the worse option.
 
 ### On dates
 
-184 of 324 sites carry a year. The rest sit in **Date Undetermined**, and that
+188 of 335 sites carry a year. The rest sit in **Date Undetermined**, and that
 is deliberate: the KMC register does not record construction dates, and for most
 of the smaller listed houses no published source gives one. Rather than guess,
 they are shown as undated. Every date that *is* shown came from a Wikidata
@@ -99,6 +116,7 @@ python3 -m venv .venv && ./.venv/bin/pip install pdfplumber
 | `build_data.py` | Merges the sources, picks a date, derives era and category, writes the JSON |
 | `curated_landmarks.txt` | Landmarks added by hand, one per line |
 | `overrides.json` | Hand-checked corrections to dates, categories and descriptions |
+| `manual_sites.json` | Sites added by hand, each recording where its coordinate came from |
 
 ## Layout
 

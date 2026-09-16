@@ -19,8 +19,8 @@ const CATEGORY_COLOURS = {
   'Rajbari, Mansion & House':     '#c9453b',
   'Temple & Thakurbari':          '#e8833a',
   'Memorial, Statue & Gate':      '#cf9a2e',
-  'Synagogue, Parsi & Chinese':   '#d8c23a',
-  'Market, Shop & Hotel':         '#9cbf3f',
+  'Other Faiths':                 '#d8c23a',
+  'Commerce, Market & Hotel':     '#9cbf3f',
   'Club, Park & Sport':           '#5cb85c',
   'Mosque & Imambara':            '#2f9e6e',
   'Hospital & Medical':           '#34bfa4',
@@ -39,7 +39,7 @@ const GLYPHS = {
   'Temple & Thakurbari':          '<path d="M12 2l5 7H7l5-7zM6 10h12v2.5H6zM7.5 14h9v8h-3v-4.5h-3V22h-3z"/>',
   'Mosque & Imambara':            '<path d="M12 2.5c-3.2 2.2-5 4.6-5 7.3V11h10V9.8c0-2.7-1.8-5.1-5-7.3zM6 12.5h12V22h-3.2v-3.6a2.8 2.8 0 0 0-5.6 0V22H6z"/>',
   'Church & Chapel':              '<path d="M10.8 2h2.4v3.2H16v2.4h-2.8V22h-2.4V7.6H8V5.2h2.8z"/>',
-  'Synagogue, Parsi & Chinese':   '<path d="M12 2l2.5 6.2L21 8.8l-4.9 4.3 1.5 6.5L12 16.2 6.4 19.6l1.5-6.5L3 8.8l6.5-.6z"/>',
+  'Other Faiths':                 '<path d="M12 2l2.5 6.2L21 8.8l-4.9 4.3 1.5 6.5L12 16.2 6.4 19.6l1.5-6.5L3 8.8l6.5-.6z"/>',
   'Ghat & Riverfront':            '<path d="M2 19.5h20V22H2zM5 15.8h17v2.9H5zM9 12.1h13V15H9zM13 8.4h9v2.9h-9z"/>',
   'Cemetery, Tomb & Crematorium': '<path d="M12 2a5 5 0 0 0-5 5v15h10V7a5 5 0 0 0-5-5zm-1.1 3.6h2.2v2.1h2.1V10h-2.1v4.3h-2.2V10H8.8V7.7h2.1z"/>',
   'Theatre & Cinema':             '<path fill-rule="evenodd" d="M2.6 4.6h18.8a1 1 0 0 1 1 1v12.8a1 1 0 0 1-1 1H2.6a1 1 0 0 1-1-1V5.6a1 1 0 0 1 1-1zM9.6 8v8l6.4-4z"/>',
@@ -49,7 +49,7 @@ const GLYPHS = {
   'School, College & University': '<path d="M12 6.3C9.6 4.3 6.6 3.6 3 4v14.2c3.6-.4 6.6.3 9 2.2V6.3zm1 0v14.1c2.4-1.9 5.4-2.6 9-2.2V4c-3.6-.4-6.6.3-9 2.3z"/>',
   'Government, Court & Fort':     '<path fill-rule="evenodd" d="M3 5.4h3.2v2.2h3.2V5.4h3.2v2.2h3.2V5.4H21V22H3zm7 9h4V22h-4z"/>',
   'Memorial, Statue & Gate':      '<path d="M10.9 2h2.2l2.2 6.6V18H8.7V8.6zM6.9 19.4h10.2V22H6.9z"/>',
-  'Market, Shop & Hotel':         '<path fill-rule="evenodd" d="M2 3.4h20l-1.6 5.4H3.6zM4.2 10.6h15.6V22H4.2zm4.6 3v5.6h6.4v-5.6z"/>',
+  'Commerce, Market & Hotel':     '<path fill-rule="evenodd" d="M2 3.4h20l-1.6 5.4H3.6zM4.2 10.6h15.6V22H4.2zm4.6 3v5.6h6.4v-5.6z"/>',
   'Bridge, Tower & Public Works': '<path fill-rule="evenodd" d="M1.6 16.4h2.2V6.2H6v10.2h12V6.2h2.2v10.2h2.2v2.4H1.6zm6.6 0h7.6v-1.2a3.8 3.8 0 0 0-7.6 0z"/>',
   'Rajbari, Mansion & House':     '<path d="M12 2.6L21.4 10v12h-6.2v-6.8H8.8V22H2.6V10z"/>',
 };
@@ -66,6 +66,7 @@ const state = {
   markers: new Map(),       // monument id -> { marker, group }
   fuse: null,
   selected: null,
+  pendingMoveEnd: null,
 };
 
 const map = L.map('map', { zoomControl: true, minZoom: 9 }).setView(CENTRE, 12);
@@ -256,6 +257,7 @@ function openCard(monument) {
   facts.innerHTML = '';
   const rows = [
     ['Address', monument.address],
+    ['Also listed as', monument.also_known_as && monument.also_known_as.join(', ')],
     ['Style', monument.styles && monument.styles.length ? monument.styles.join(', ') : null],
     ['Architect', monument.architects && monument.architects.length ? monument.architects.join(', ') : null],
     ['Distance', `${monument.km_from_centre} km from Lal Dighi`],
@@ -365,11 +367,16 @@ function flyTo(monument) {
   const layer = state.layers.get(entry.group);
   if (layer && !layer.visible) setLayerVisible(entry.group, true);
 
-  const target = [monument.lat, monument.lng];
-  map.flyTo(target, Math.max(map.getZoom(), 16), { duration: 0.9 });
-  map.once('moveend', () => {
+  // Drop any handler still waiting on the previous flight, or it will fire
+  // mid-way through this one and pan straight back to the last monument.
+  if (state.pendingMoveEnd) map.off('moveend', state.pendingMoveEnd);
+
+  state.pendingMoveEnd = () => {
+    state.pendingMoveEnd = null;
     if (layer) layer.cluster.zoomToShowLayer(entry.marker, () => highlightPin(monument.id));
-  });
+  };
+  map.once('moveend', state.pendingMoveEnd);
+  map.flyTo([monument.lat, monument.lng], Math.max(map.getZoom(), 16), { duration: 0.9 });
 }
 
 /* ────────────────────────── search ────────────────────────── */
@@ -454,6 +461,17 @@ document.querySelectorAll('.group-switch button').forEach((btn) => {
   });
 });
 
+function openFromHash() {
+  const wanted = window.location.hash.replace('#', '');
+  if (!wanted) {
+    if (state.selected) closeCard();
+    return;
+  }
+  if (state.selected && state.selected.id === wanted) return;
+  const target = state.monuments.find((m) => m.id === wanted);
+  if (target) openCard(target);
+}
+
 /* ────────────────────────── bootstrap ────────────────────────── */
 
 Promise.all([
@@ -481,9 +499,10 @@ Promise.all([
     // On a phone the sidebar covers the whole screen — show the map first.
     if (window.innerWidth <= 860) document.getElementById('sidebar').classList.add('collapsed');
 
-    const wanted = window.location.hash.replace('#', '');
-    const target = wanted && monuments.find((m) => m.id === wanted);
-    if (target) openCard(target);
+    openFromHash();
+    // A fragment-only change doesn't reload the page, so links between sites
+    // (and the back button) have to be handled here.
+    window.addEventListener('hashchange', openFromHash);
   })
   .catch((err) => {
     console.error('Could not load the dataset:', err);

@@ -1,0 +1,180 @@
+[
+ {
+  "_comment": "Sites neither Wikidata query returns — either because they carry no heritage designation there, or because they sit outside the 25 km sweep. Every coordinate names its source; none were estimated. Descriptions are written here from facts stated in the cited sources, not copied from them.",
+
+  "id": "Q137780795",
+  "name": "Chinese Temple, Achipur",
+  "lat": 22.451384,
+  "lng": 88.128846,
+  "coord_source": "Wikidata Q137780795; the OpenStreetMap node for the same temple agrees to within ~100 m",
+  "category": "Other Faiths",
+  "article": "https://en.wikipedia.org/wiki/Achipur_Chinese_Temple",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_historical_Chinese_temple,_at_abandoned_Chinese_colony_in_Achhipur,_South_24_Pargana_02.jpg?width=900",
+  "address": "Achipur, Budge Budge, South 24 Parganas",
+  "description": "Yang Tai Chow — known in Calcutta as Tong Achew — arrived in 1778 and was granted 650 bighas on the Hooghly by Warren Hastings, at forty-five rupees a year, for a sugar plantation and mill. The Chinese workers he brought over made this the first Chinese settlement in India. He died within a few years and his community moved upriver to Tiretta Bazar, leaving this temple, among the oldest surviving Chinese religious sites in the country, with Achew's horseshoe-shaped grave a short walk away. Kolkata's Chinese families still come down for the New Year."
+ },
+ {
+  "id": "osm-sea-ip-church",
+  "name": "Sea Ip Church",
+  "lat": 22.57326,
+  "lng": 88.35538,
+  "coord_source": "OpenStreetMap node, amenity=place_of_worship religion=taoist",
+  "category": "Other Faiths",
+  "year": 1905,
+  "built": "1905 (association founded 1882)",
+  "address": "22/1A Chattawala Gully",
+  "description": "A Cantonese clan temple up a narrow stair off Chattawala Gully, and the grandest of the Tiretta Bazar six. The association dates from 1882 and the present building from 1905. On the Kolkata Municipal Corporation's graded list as a Chinese temple."
+ },
+ {
+  "id": "osm-toong-on-church",
+  "name": "Toong On Church",
+  "lat": 22.57309,
+  "lng": 88.35583,
+  "coord_source": "OpenStreetMap node, amenity=place_of_worship religion=taoist",
+  "category": "Other Faiths",
+  "year": 1924,
+  "built": "1924",
+  "address": "22 Blackburn Lane",
+  "description": "Cantonese migrants from Koon Tong bought the plot on Blackburn Lane in 1917 and finished the temple in 1924. The ground floor became the Nanking Restaurant in 1925 — Calcutta's, and probably India's, first Chinese restaurant. It declined after the 1962 war and closed in the late 1970s; the temple above it survived."
+ },
+ {
+  "id": "osm-gee-hing-church",
+  "name": "Gee Hing Church",
+  "lat": 22.57417,
+  "lng": 88.35615,
+  "coord_source": "OpenStreetMap node, amenity=place_of_worship religion=taoist",
+  "category": "Other Faiths",
+  "address": "13 Blackburn Lane",
+  "description": "One of the six clan temples that survive in Tiretta Bazar, Calcutta's original Chinatown, and on the Kolkata Municipal Corporation's graded list as a Chinese temple. The Gee Hing association also keeps a burial ground of its own off Meher Ali Lane."
+ },
+ {
+  "id": "osm-nam-soon-church",
+  "name": "Nam Soon Church",
+  "lat": 22.57506,
+  "lng": 88.35616,
+  "coord_source": "OpenStreetMap node, amenity=place_of_worship religion=taoist",
+  "category": "Other Faiths",
+  "address": "13 Damzen Lane",
+  "description": "A clan temple on Damzen Lane, on the graded list as a Chinese temple. The Nam Soon association, like the others in Tiretta Bazar, ran a temple, a school and a burial ground for its members; its cemetery is on Mathur Babu Lane."
+ },
+ {
+  "id": "osm-sea-voi-church",
+  "name": "Sea Voi Yune Leong Futh Church",
+  "lat": 22.57367,
+  "lng": 88.35627,
+  "coord_source": "OpenStreetMap node, name \"Sea Voi Chinese Temple\"",
+  "category": "Other Faiths",
+  "address": "17 Blackburn Lane",
+  "description": "A Chinese temple on Blackburn Lane, carried on the Kolkata Municipal Corporation's graded list under its full name, Sea Voi Yune Leong Futh Church. It stands within a hundred metres of four other clan temples, all raised by the community that moved up from Achipur after Tong Achew's death."
+ },
+ {
+  "id": "osm-chun-nee-thong-church",
+  "name": "Chun Nee Thong Church",
+  "lat": 22.5735,
+  "lng": 88.35619,
+  "coord_source": "OpenStreetMap node, amenity=place_of_worship religion=taoist",
+  "category": "Other Faiths",
+  "description": "The sixth of the Tiretta Bazar Chinese temples. Romanisations of these names vary a great deal between the graded list, the street and the map: the register and local accounts also record a Choong Ye Thong Church a few doors away on New Meredith Street, rebuilt in three storeys around 1932, which may well be this same building under another spelling."
+ },
+ {
+  "id": "osm-gillander-house",
+  "name": "Gillander House",
+  "lat": 22.57644,
+  "lng": 88.34924,
+  "coord_source": "OpenStreetMap way, name=Gillander House",
+  "category": "Commerce, Market & Hotel",
+  "year": 1909,
+  "built": "1909",
+  "address": "Netaji Subhas Road (Clive Street)",
+  "architects": ["Harry Stuart Goodhart-Rendel"],
+  "description": "Built for Gillanders, Arbuthnot & Co., one of the Scottish managing agencies that ran Clive Street, and completed in 1909. It resists the labels the rest of the city accepts — the Writers' Building is Greco-Roman, the High Court Gothic, Esplanade Mansions Art Nouveau — partly because its architect, Harry Stuart Goodhart-Rendel, was a composer as much as a designer."
+ },
+ {
+  "id": "osm-royal-insurance-building",
+  "name": "Royal Insurance Building",
+  "lat": 22.5722,
+  "lng": 88.34742,
+  "coord_source": "OpenStreetMap way, name=Royal Insurance Building",
+  "category": "Commerce, Market & Hotel",
+  "year": 1905,
+  "built": "1905",
+  "address": "Dalhousie Square",
+  "description": "Royal Insurance was founded in Liverpool in 1845; its Calcutta office went up on Dalhousie Square sixty years later, in 1905. One of the mercantile palaces that make the square a commercial rather than a governmental set piece."
+ },
+ {
+  "id": "osm-hong-kong-house",
+  "name": "Hong Kong House",
+  "lat": 22.57075,
+  "lng": 88.3477,
+  "coord_source": "OpenStreetMap way, name=Hongkong House",
+  "category": "Commerce, Market & Hotel",
+  "address": "Dalhousie Square South",
+  "description": "The Calcutta premises of the Hongkong and Shanghai Banking Corporation, on the south side of Dalhousie Square. No construction date for it is on public record."
+ },
+ {
+  "id": "osm-calcutta-collectorate",
+  "name": "The Calcutta Collectorate",
+  "lat": 22.5736,
+  "lng": 88.34778,
+  "coord_source": "OpenStreetMap way, name=Collectorate Building",
+  "category": "Government, Court & Fort",
+  "year": 1892,
+  "built": "1892",
+  "address": "Dalhousie Square",
+  "description": "Built in 1892, ten years after the Writers' Building, on the ground where the Old Fort William of 1696–1706 once stood — which makes this the site of the Black Hole. Curzon put up a replica of the Black Hole monument here in 1901; it too was eventually removed."
+ },
+ {
+  "id": "Q107132252",
+  "name": "North Park Street Cemetery",
+  "lat": 22.54822,
+  "lng": 88.36029,
+  "coord_source": "Wikidata Q107132252",
+  "category": "Cemetery, Tomb & Crematorium",
+  "year": 1797,
+  "built": "1797",
+  "address": "Park Street (Mother Teresa Sarani)",
+  "description": "The second of the Park Street burial grounds, opened in 1797 across the road from the South Park Street cemetery when that one filled. Very little of it is left; the Robertson monument is the piece people still go looking for."
+ },
+ {
+  "id": "osm-jewish-cemetery-narkeldanga",
+  "name": "Jewish Cemetery, Narkeldanga",
+  "lat": 22.57105,
+  "lng": 88.39166,
+  "coord_source": "OpenStreetMap way, name=Jewish Cemetery",
+  "category": "Cemetery, Tomb & Crematorium",
+  "address": "Narkeldanga Main Road",
+  "description": "The burial ground of Calcutta's Baghdadi Jewish community, out on Narkeldanga Main Road. Its prayer hall was finished in 1921. The community that filled it — the Ezras, the Gubbays, the Nahoums — has almost entirely gone, and the cemetery is now one of the fullest records left of it."
+ },
+ {
+  "id": "osm-nipponzan-myohoji",
+  "name": "Nipponzan Myohoji Japanese Buddhist Temple",
+  "lat": 22.51065,
+  "lng": 88.36607,
+  "coord_source": "OpenStreetMap node, name=Nipponzan Myohoji Buddhist Temple",
+  "category": "Other Faiths",
+  "year": 1935,
+  "built": "1935",
+  "address": "Lake Road",
+  "description": "A temple of the Japanese Nipponzan-Myōhōji order, built on Lake Road in 1935 — four years before the Second World War overtook the community that had raised it."
+ },
+ {
+  "id": "osm-myanmar-buddhist-temple",
+  "name": "Myanmar (Burma) Buddhist Temple",
+  "lat": 22.57231,
+  "lng": 88.35821,
+  "coord_source": "OpenStreetMap node, name=Myanmar Buddhist Temple",
+  "category": "Other Faiths",
+  "address": "Eden Hospital Road",
+  "description": "A Burmese Buddhist temple off Eden Hospital Road, at the edge of the old Chinatown quarter — a survival of the Burmese community that came to Calcutta while Burma was governed from here."
+ },
+ {
+  "id": "osm-nizam-palace",
+  "name": "Nizam Palace",
+  "lat": 22.53975,
+  "lng": 88.35041,
+  "coord_source": "OpenStreetMap way at 234/4 A. J. C. Bose Road, the Nizam Palace complex",
+  "category": "Rajbari, Mansion & House",
+  "address": "234/4 Acharya Jagadish Chandra Bose Road",
+  "description": "Built by J. C. Galstaun, the Armenian horse-breeder turned property magnate who put up a good deal of south-central Calcutta, and later sold to the Nizam of Hyderabad, whose title stuck to it. It is now a central government office complex."
+ }
+]

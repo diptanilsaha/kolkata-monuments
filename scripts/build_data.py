@@ -52,14 +52,14 @@ CATEGORY_RULES = [
     ("Temple & Thakurbari",        r"hindu temple|jain temple|thakurbari|thakurbati|\btemple\b|mandir|kalibari|kali ?mandir|\bmath\b|monastery|ashram|rashmancha|pagoda|shiva|jiu\b"),
     ("Mosque & Imambara",          r"mosque|masjid|imambara|husayniyya|dargah"),
     ("Church & Chapel",            r"christian|church|cathedral|chapel|basilica|convent|mission"),
-    ("Synagogue, Parsi & Chinese", r"synagogue|parsi|fire temple|chinese temple|gurdwara|sikh sangat"),
+    ("Other Faiths", r"synagogue|parsi|fire temple|chinese temple|gurdwara|sikh sangat"),
     ("Ghat & Riverfront",          r"riverfront|bathing ghat|burning ghat|\bghat\b|jetty"),
     ("Cemetery, Tomb & Crematorium", r"burial|cremation|crematorium|cemetery|graveyard|\btomb\b|mausoleum|\bgrave\b"),
     ("Theatre & Cinema",           r"theatre|theater|theatrical|cinema|movie|playhouse|opera|auditorium"),
     ("Club, Park & Sport",         r"park, waterbody|recreational|\bclub\b|\bpark\b|maidan|\bsquare\b|garden|waterbody|race course|turf|golf|stadium|\bground\b|sport|swimming|rowing|\bzoo\b|dighi|sarobar|tarag"),
     ("Government, Court & Fort",   r"\boffice\b|public institution|court|\bjail\b|prison|police|post office|government|municipal|secretariat|customs|legislature|assembly|vidhan sabha|currency|akashvani|\bmint\b|\bfort\b|arsenal|writers|\bbank\b|\bhall\b"),
     ("Memorial, Statue & Gate",    r"\bstatue\b|memorial|monument|cenotaph|obelisk|gateway|\bgate\b|\bcolumn\b|minar|dungeon"),
-    ("Market, Shop & Hotel",       r"\bmarket\b|\bshop\b|bazaar|\bstore\b|bakery|restaurant|confectioner|caf[e\u00e9]|\bhotel\b|tea house|\bbank\b"),
+    ("Commerce, Market & Hotel",       r"\bmarket\b|\bshop\b|bazaar|\bstore\b|bakery|restaurant|confectioner|caf[e\u00e9]|\bhotel\b|tea house|\bbank\b"),
     ("Bridge, Tower & Public Works", r"bridge|\btower\b|water tank|lighthouse|\bdock\b|\bport\b|railway|station|canal|waterworks|factory|chemical|industrial|\bmills?\b|foundry|printing|press and media|telegraph|power"),
     ("Rajbari, Mansion & House",   r"eminent personality|architectural style|moribund house|\bhouse\b|residence|\bpalace\b|rajbari|rajbati|villa|bhawan|bhavan|kutir|baganbari|apartment|mansions?\b|\bbuilding\b|\bhome\b"),
 ]
@@ -80,6 +80,21 @@ EXCLUDE_QIDS = {
     "Q3348702",    # East Kolkata Wetlands — a Ramsar wetland, not a built monument
     "Q75738551",   # duplicate of Q986105, Howrah station
     "Q15265664",   # Wikidata coordinate error: this temple is in Tamil Nadu
+    "Q6437106",    # Kripamayee Kali Temple — its Wikidata coordinate is a copy of
+                   # Dakshineswar's, and the real one is not published anywhere;
+                   # better absent than plotted 1.5 km from where it stands.
+}
+
+# Pairs of records that denote the same building or the same institution at the
+# same address. The absorbed record's name is kept on the survivor.
+# Not merged: separate structures that merely share a name or a compound —
+# Scottish Church College and its B.Ed block, Marble Palace and its zoo,
+# Presidency University and the University of Calcutta.
+MERGED_INTO = {
+    "Q68685693": "Q6463753",   # La Martiniere for Boys -> La Martiniere Calcutta
+    "Q56244717": "Q374902",    # Asiatic Society building -> The Asiatic Society
+    "Q6680900":  "Q6680932",   # Loreto College -> Loreto House (both 7 Middleton Row)
+    "Q2983685":  "Q7592175",   # St. Xavier's Collegiate School -> St. Xavier's College
 }
 
 STRONG_YEAR = r"(?:built|rebuilt|erected|constructed|completed|consecrated|opened|inaugurated|founded|established|commissioned|laid out|dates? back to)\b[^.]{0,70}?\b(1[5-9]\d{2}|20[0-2]\d)\b"
@@ -89,6 +104,28 @@ LOOSE_YEAR = r"\bin\s+(1[5-9]\d{2}|20[0-2]\d)\b"
 def km_from_centre(lat, lng):
     return math.hypot((lat - CENTRE[0]) * 111.0,
                       (lng - CENTRE[1]) * 111.0 * math.cos(math.radians(CENTRE[0])))
+
+
+def load_manual():
+    """Hand-entered sites that neither Wikidata query returns — because they
+    carry no heritage designation there, or sit outside the 25 km sweep. Each
+    one records where its coordinate came from; see manual_sites.json."""
+    path = HERE / "manual_sites.json"
+    if not path.exists():
+        return []
+    items = []
+    for entry in json.loads(path.read_text()):
+        entry = {k: v for k, v in entry.items() if not k.startswith("_")}
+        entry.setdefault("types", [])
+        entry.setdefault("heritage", [])
+        entry.setdefault("styles", [])
+        entry.setdefault("architects", [])
+        entry.setdefault("wd_description", "")
+        entry["qid"] = entry.pop("id")
+        entry["km"] = round(km_from_centre(entry["lat"], entry["lng"]), 1)
+        entry["manual"] = True
+        items.append(entry)
+    return items
 
 
 def load_sparql(name):
@@ -209,6 +246,8 @@ def address_for(item, details):
 def pick_year(item, extract, override):
     if "year" in override:
         return override["year"], "curated"
+    if item.get("manual"):
+        return item.get("year"), ("curated" if item.get("year") else None)
     inception = item.get("inception")
     if inception:
         m = re.match(r"(-?\d{1,4})-", inception)
@@ -344,7 +383,23 @@ def main():
     items = [i for i in heritage + extras
              if i["km"] <= MAX_KM and i["qid"] not in EXCLUDE_QIDS]
 
+    # Hand-added sites bypass the radius: they are deliberate choices, and
+    # Achipur — the first Chinese settlement in India — is 27 km out.
+    seen = {i["qid"] for i in items}
+    items += [i for i in load_manual() if i["qid"] not in seen]
+
     details = load_details()
+    # Fold merged records into their survivors before anything else reads them.
+    by_qid = {i["qid"]: i for i in items}
+    for absorbed, survivor in MERGED_INTO.items():
+        a, b = by_qid.get(absorbed), by_qid.get(survivor)
+        if a and b:
+            b.setdefault("also_known_as", []).append(a["name"])
+            b["heritage"] = sorted(set(b["heritage"]) | set(a["heritage"]))
+            if not b.get("image"):
+                b["image"] = a.get("image")
+    items = [i for i in items if i["qid"] not in MERGED_INTO]
+
     match_register(items, kmc_register.parse(), details)
 
     blog_links = blog_index.load_links()
@@ -368,16 +423,21 @@ def main():
             "lng": item["lng"],
             "era": override.get("era") or era_for(year),
             "year": year,
-            "built": override.get("built") or (str(year) if year else "Date not recorded"),
-            "category": override.get("category") or category_for(item),
-            "description": override.get("description") or describe(item, extract),
+            "built": (override.get("built") or item.get("built")
+                      or (str(year) if year else "Date not recorded")),
+            "category": override.get("category") or item.get("category") or category_for(item),
+            "description": (override.get("description") or item.get("description")
+                            or describe(item, extract)),
             "styles": item["styles"],
             "architects": item["architects"],
-            "address": address_for(item, details),
+            "address": item.get("address") or address_for(item, details),
             "km_from_centre": item["km"],
             "image": thumbnail(override.get("image") or page.get("image") or item.get("image")),
+            "coord_source": item.get("coord_source"),
+            "also_known_as": item.get("also_known_as"),
             "wikipedia": item.get("article"),
-            "wikidata": f"https://www.wikidata.org/wiki/{item['qid']}",
+            "wikidata": (f"https://www.wikidata.org/wiki/{item['qid']}"
+                         if re.fullmatch(r"Q\d+", item["qid"]) else None),
             "further_reading": blog_links.get(item["qid"]),
             "date_source": year_source,
         })
