@@ -5,7 +5,10 @@ plotted where it stands and coloured by the era that built it.
 
 ![The map](preview.jpg)
 
-Inspired by [delhi-monuments](https://github.com/kaustubh-misra/delhi-monuments).
+Inspired by [The many cities of Delhi](https://kaustubh-misra.github.io/delhi-monuments/)
+([source](https://github.com/kaustubh-misra/delhi-monuments)), and built on the
+work of Kolkata's heritage bloggers — above all Deepanjan Ghosh's
+[The Concrete Paparazzi](https://double-dolphin.blogspot.com/).
 Delhi's story is told through eighteen dynasties; Kolkata is a much younger city,
 so this one is told through six phases of a single city's life — from Job
 Charnock's burial ground to the Art Deco cinemas of Esplanade.

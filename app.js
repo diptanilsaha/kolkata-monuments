@@ -283,6 +283,7 @@ function openCard(monument) {
 
   card.scrollTop = 0;
   card.classList.add('active');
+  document.body.classList.add('card-open');
   if (window.innerWidth <= 860) document.getElementById('sidebar').classList.add('collapsed');
 
   history.replaceState(null, '', `#${monument.id}`);
@@ -350,6 +351,7 @@ function loadHero(monument) {
 
 function closeCard() {
   card.classList.remove('active');
+  document.body.classList.remove('card-open');
   state.selected = null;
   highlightPin(null);
   history.replaceState(null, '', window.location.pathname + window.location.search);

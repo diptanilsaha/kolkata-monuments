@@ -256,6 +256,33 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
+/* ────────────────────────── credit ─────────────────────── */
+
+#credit {
+  position: absolute;
+  right: 12px;
+  bottom: 26px;           /* clear of the Leaflet attribution bar */
+  z-index: 1200;          /* sits under the info card */
+  max-width: 300px;
+  padding: 9px 12px;
+  border-radius: 11px;
+  background: rgba(22, 22, 24, 0.9);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  font-size: 11px;
+  line-height: 1.55;
+  color: var(--text-faint);
+  text-align: right;
+}
+/* the info card overlaps this corner; get out of its way */
+body.card-open #credit { opacity: 0; pointer-events: none; }
+#credit { transition: opacity 0.25s var(--ease); }
+
+#credit a { color: var(--text-dim); text-decoration: none; border-bottom: 1px solid rgba(232, 131, 58, 0.5); }
+#credit a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
 /* ─────────────────────── info card ─────────────────────── */
 
 #info-card {
@@ -410,6 +437,13 @@ body {
 
   .card-hero { height: 158px; }
   .masthead h1 { font-size: 34px; }
+
+  #credit {
+    left: 12px;
+    max-width: none;
+    font-size: 10px;
+    padding: 7px 10px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
