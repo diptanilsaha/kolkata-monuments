@@ -53,7 +53,8 @@ always says what the building is.
 | [KMC graded list of heritage buildings](https://wbhc.in/files/contents/graded_list_of_heritage_buildings_grade_i_iia_iib_final.pdf) (42-page PDF) | The statutory register — 762 entries, giving the scope of what counts as heritage here and a classification of each building |
 | [Wikidata](https://query.wikidata.org/) | Coordinates, construction dates, architects, architectural styles, images |
 | [English Wikipedia](https://en.wikipedia.org/w/api.php) | The descriptions and lead photographs |
-| Archaeological Survey of India / West Bengal Heritage Commission / Indian Railways heritage inventory | Reached through their Wikidata heritage designations |
+| [Archaeological Survey of India](https://asi.nic.in/) | The official list of Monuments of National Importance in West Bengal, used to verify the map's ASI sites and their numbers |
+| West Bengal Heritage Commission / Indian Railways heritage inventory | Reached through their Wikidata heritage designations |
 | [double-dolphin.blogspot.com](https://double-dolphin.blogspot.com/) | Deepanjan Ghosh's [heritage index](https://double-dolphin.blogspot.com/p/blog-page_27.html), linked as further reading from 39 sites |
 | OpenStreetMap | Coordinates for sites Wikidata does not carry, and the basemap the site renders on |
 
@@ -95,6 +96,22 @@ Nineteen of the index's buildings are still off the map — Alliance Bank of
 Simla, the Chartered Bank, Peliti's, the Army & Navy Stores, the United Service
 Club, Posta Rajbari among them — because nothing found for them could be
 confirmed, and a pin that cannot be confirmed is worse than no pin.
+
+### Checked against the ASI
+
+Of the 147 entries on the ASI's list of Monuments of National Importance in West
+Bengal, **eleven fall within 25 km of Lal Dighi, and all eleven are on this
+map** — the six in Kolkata district (Metcalfe Hall, St. John's Church, the
+Currency Building, the Asiatic Society, and the Magen David and Beth El
+synagogues), Sri Mayer Ghat, Clive's House at Dum Dum, the 26 Shiva temples at
+Khardah, Warren Hastings' House at Barasat, and the Danish cemetery at
+Serampore. Each carries its ASI number in the `asi_id` field and on its card.
+
+Reconciling the two lists also caught an error. Wikidata places the Beth El
+Synagogue 610 m from where it stands; the ASI list and OpenStreetMap agree with
+each other on Pollock Street, so the coordinate was corrected. Every other ASI
+site now agrees with the ASI's own coordinate to within 70 m, except Sri Mayer
+Ghat at 336 m, where the two sources differ over a stretch of riverbank.
 
 ### On dates
 

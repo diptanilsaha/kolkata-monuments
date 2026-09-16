@@ -98,6 +98,23 @@ POST_1947_KEEP = {
     "Q6476396",    # Lake Kalibari
 }
 
+# Official Archaeological Survey of India monument numbers, checked against the
+# ASI's own list of Monuments of National Importance in West Bengal. All eleven
+# that fall inside the coverage area are on the map.
+ASI_IDS = {
+    "Q6823351":  "N-WB-75",   # Metcalfe Hall
+    "Q3051967":  "N-WB-76",   # St. John's Church
+    "Q56245193": "N-WB-77",   # Currency Building
+    "Q374902":   "N-WB-78",   # The Asiatic Society
+    "Q6730097":  "N-WB-79",   # Magen David Synagogue
+    "Q40670133": "N-WB-80",   # Beth-El Synagogue
+    "Q56244285": "N-WB-74",   # Sri Mayer Ghat
+    "Q56152584": "N-WB-3",    # Clive's House, Dum Dum
+    "Q56152661": "N-WB-4",    # 26 Shiva temples, Khardah
+    "Q56153143": "N-WB-5",    # Warren Hastings' House, Barasat
+    "Q56235890": "N-WB-71",   # Danish Cemetery, Serampore
+}
+
 # Pairs of records that denote the same building or the same institution at the
 # same address. The absorbed record's name is kept on the survivor.
 # Not merged: separate structures that merely share a name or a compound —
@@ -432,8 +449,8 @@ def main():
         monuments.append({
             "id": item["qid"],
             "name": override.get("name", item["name"]),
-            "lat": item["lat"],
-            "lng": item["lng"],
+            "lat": override.get("lat", item["lat"]),
+            "lng": override.get("lng", item["lng"]),
             "era": override.get("era") or era_for(year),
             "year": year,
             "built": (override.get("built") or item.get("built")
@@ -448,6 +465,7 @@ def main():
             "image": thumbnail(override.get("image") or page.get("image") or item.get("image")),
             "also_known_as": item.get("also_known_as"),
             "wikipedia": item.get("article"),
+            "asi_id": ASI_IDS.get(item["qid"]),
             "wikidata": (f"https://www.wikidata.org/wiki/{item['qid']}"
                          if re.fullmatch(r"Q\d+", item["qid"]) else None),
             "further_reading": blog_links.get(item["qid"]),

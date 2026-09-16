@@ -16,6 +16,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Job%20Charnak%20Monument.1.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q44143387",
   "further_reading": null,
   "date_source": "curated"
@@ -37,6 +38,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortwilliam1828.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Fort_William,_West_Bengal",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2750027",
   "further_reading": null,
   "date_source": "wikidata"
@@ -58,6 +60,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/P.G.%20%28SSKM%29%20Hospital%2C%20administrative%20building%20and%20campus%2010.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/IPGMER_and_SSKM_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5973023",
   "further_reading": null,
   "date_source": "wikidata"
@@ -79,6 +82,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lal_Dighi_Pano.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lal_Dighi,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6480048",
   "further_reading": null,
   "date_source": "curated"
@@ -100,6 +104,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Armenian_Church%2C_Calcutta_%28Kolkata%29_04.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Armenian_Church_of_the_Holy_Nazareth",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3585462",
   "further_reading": null,
   "date_source": "wikidata"
@@ -121,6 +126,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Martin%27s%20Pagoda%20at%20Serampore%20in%20Hooghly%20district.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q66809965",
   "further_reading": {
    "title": "Henry Martyn's Pagoda, Serampore",
@@ -146,6 +152,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Black_hole%27_june_20_1756.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Black_Hole_of_Calcutta",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1202492",
   "further_reading": {
    "title": "The Calcutta Collectorate and The Black Hole of Calcutta, Dalhousie Square",
@@ -171,6 +178,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/N-WB-3%20%281%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": "N-WB-3",
   "wikidata": "https://www.wikidata.org/wiki/Q56152584",
   "further_reading": null,
   "date_source": "curated"
@@ -192,6 +200,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolkata_Maidan_afternoon.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Maidan_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q987578",
   "further_reading": null,
   "date_source": "curated"
@@ -215,6 +224,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Radhaballav%20Temple-Serampore-West%20Bengal-15.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q96777057",
   "further_reading": null,
   "date_source": "wikidata"
@@ -236,6 +246,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_view_of_the_South_Park_Street_Cemetery_in_Kolkata%2C_West_Bengal.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/South_Park_Street_Cemetery",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2972549",
   "further_reading": {
    "title": "South Park Street Cemetery",
@@ -263,6 +274,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Mission_Church%2C_a_heritage_building_at_R._N_Mukherjee_Road_in_Kolkata_26.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Old_Mission_Church,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q19950963",
   "further_reading": null,
   "date_source": "wikidata"
@@ -284,6 +296,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhot_Bagan_Math%2C_the_first_Tibetan_Buddhist_Temple_in_the_plains_of_India_at_Ghusuri%2C_Howrah_38.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Bhot_Bagan_Moth",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q67590242",
   "further_reading": {
    "title": "Bhot Bagan Math, Ghusuri, Howrah",
@@ -309,6 +322,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Writers%27_Building.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Writers%27_Building",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q985758",
   "further_reading": {
    "title": "Writers’ Building",
@@ -334,6 +348,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorasanko_Thakurbari.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Jorasanko_Thakur_Bari",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3347163",
   "further_reading": null,
   "date_source": "curated"
@@ -357,6 +372,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St._John%27s_Church_at_Hastigns_Street%2CKolkata.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._John%27s_Church,_Kolkata",
+  "asi_id": "N-WB-76",
   "wikidata": "https://www.wikidata.org/wiki/Q3051967",
   "further_reading": {
    "title": "St. John’s Church",
@@ -384,6 +400,7 @@
    "Asiatic Society building"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/The_Asiatic_Society",
+  "asi_id": "N-WB-78",
   "wikidata": "https://www.wikidata.org/wiki/Q374902",
   "further_reading": null,
   "date_source": "wikidata"
@@ -405,6 +422,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolkata_botanical_garden_pathway.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Acharya_Jagadish_Chandra_Bose_Indian_Botanic_Garden",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3346386",
   "further_reading": null,
   "date_source": "wikidata"
@@ -426,6 +444,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danish_Cemetery._all_Tombs_%26_structure.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Danish_Cemetery,_Serampore",
+  "asi_id": "N-WB-71",
   "wikidata": "https://www.wikidata.org/wiki/Q56235890",
   "further_reading": null,
   "date_source": "wikidata"
@@ -447,6 +466,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Thomas_Boys_School_-_4_Diamond_Harbour_Road_-_Kidderpore_-_Kolkata_2015-12-13_8044.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._Thomas%27_School,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7595573",
   "further_reading": null,
   "date_source": "wikidata"
@@ -468,6 +488,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CCFC%20Out%20Gate.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Cricket_and_Football_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q11044609",
   "further_reading": null,
   "date_source": "wikidata"
@@ -489,6 +510,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Durgeswar%20Shiva%20Temple-Kolkata-West%20Bengal-DSC%204758%2000001.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q67886466",
   "further_reading": null,
   "date_source": "wikidata"
@@ -512,6 +534,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Radhabinode%27s_%27nabaratna%27_Temple%2CTollygunge-2.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Radhakanta_Temple,_Chetla",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q58693169",
   "further_reading": null,
   "date_source": "wikidata"
@@ -533,6 +556,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cathedral_of_the_Most_Holy_Rosary_%28Portuguese_Church%29%2C_Calcutta_%28Kolkata%29.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Holy_Rosary_Cathedral,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5052457",
   "further_reading": {
    "title": "Portuguese Church (Church of the Most Holy Rosary)",
@@ -558,6 +582,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q107132252",
   "further_reading": {
    "title": "North Park Street Cemetery",
@@ -583,6 +608,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Fort_William_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2428745",
   "further_reading": null,
   "date_source": "wikidata"
@@ -604,6 +630,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Olav%27s_Church%2C_Serampore.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._Olav%27s_Church,_Serampore",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q27685123",
   "further_reading": null,
   "date_source": "wikidata"
@@ -627,6 +654,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raj_Bhaban_1.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lok_Bhavan,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3349690",
   "further_reading": null,
   "date_source": "wikidata"
@@ -650,6 +678,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thanthania_Kalibari_-_Kolkata_7421.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Thanthania_Kalibari",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7710629",
   "further_reading": null,
   "date_source": "wikidata"
@@ -671,6 +700,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bashiri_Mosque_11.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Basri_Shah_Mosque",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q13059169",
   "further_reading": {
    "title": "Basri Shah Masjid",
@@ -696,6 +726,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Radhanath Temple (Bawali Mondal)",
@@ -721,6 +752,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%2C%20Our%20Lady%20of%20Dolours%20church.JPG?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q48774272",
   "further_reading": null,
   "date_source": "wikidata"
@@ -744,6 +776,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalighat_Kali_Temple_after_renovation.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Kalighat_Temple",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q535970",
   "further_reading": null,
   "date_source": "wikidata"
@@ -765,6 +798,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Jewish Cemetery",
@@ -794,6 +828,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Town_Hall_Recent.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Kolkata_Town_Hall",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6427313",
   "further_reading": {
    "title": "Town Hall",
@@ -819,6 +854,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Museum%2C_Courtyard%2C_Kolkata%2C_India.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Indian_Museum",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1364900",
   "further_reading": null,
   "date_source": "wikidata"
@@ -840,6 +876,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hindu_School_-_Kolkata_7409.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Hindu_School,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5766377",
   "further_reading": null,
   "date_source": "wikidata"
@@ -861,6 +898,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nimtala_burning_ghat%2C_Calcutta_in_1945.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Nimtala_Crematorium",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7037794",
   "further_reading": null,
   "date_source": "curated"
@@ -882,6 +920,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Presidency%20University%20-%20Kolkata%207368.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Presidency_University,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2749583",
   "further_reading": null,
   "date_source": "wikidata"
@@ -903,6 +942,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HareSchool2006.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Hare_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5656757",
   "further_reading": null,
   "date_source": "wikidata"
@@ -924,6 +964,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serampore_College_-_Hooghly_2017-07-06_0840-0860.tif?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Serampore_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7452674",
   "further_reading": null,
   "date_source": "wikidata"
@@ -945,6 +986,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Andrew%27s%20Church%20-%20Dalhousie%20Square%20-%20Kolkata%202012-09-22%200281.JPG?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q22343101",
   "further_reading": {
    "title": "St. Andrew's Church",
@@ -970,6 +1012,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_gate_to_The_Agri-Horticultural_Society_of_India.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Agri-Horticultural_Society_of_India",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4693837",
   "further_reading": null,
   "date_source": "wikidata"
@@ -991,6 +1034,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Panihati%20Baro%20Mandir%20Ghat%2008.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q96737500",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1012,6 +1056,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolkata%2C_Race_course.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Kolkata_Race_Course",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5455830",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -1033,6 +1078,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": null,
   "date_source": "curated"
@@ -1054,6 +1100,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Cemetery_in_Kolkata_02.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Cemetery_at_Calcutta",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7437647",
   "further_reading": {
    "title": "Scottish Cemetery",
@@ -1079,6 +1126,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Armenian_College_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4069721",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1100,6 +1148,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SCS_building.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Sanskrit_Collegiate_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7419009",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1121,6 +1170,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanskrit_College_College_Street.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Sanskrit_College_and_University",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7419011",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1142,6 +1192,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bijou_Grand_Opera_House_Calcutta_1.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Globe_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5570972",
   "further_reading": null,
   "date_source": "curated"
@@ -1163,6 +1214,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Baro Ras Bari, Chetla",
@@ -1188,6 +1240,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shahid_Minar_Kolkata_Arnab_Dutta_2011.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Shaheed_Minar,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7461557",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1209,6 +1262,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q67903835",
   "further_reading": null,
   "date_source": "curated"
@@ -1230,6 +1284,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental_Seminary.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Oriental_Seminary",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7102369",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1251,6 +1306,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Calcutta_Golf_club.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Royal_Calcutta_Golf_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2576004",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -1272,6 +1328,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andul_Royal_Palace_-_Howrah_2012-03-25_2800.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Andul_rajbari",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q23808306",
   "further_reading": null,
   "date_source": "curated"
@@ -1293,6 +1350,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babu_Ghat_-_Kolkata_2012-01-14_0544.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Babu_Ghat",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4838076",
   "further_reading": {
    "title": "Babu Ghat",
@@ -1318,6 +1376,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Church_College_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Church_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q849950",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1339,6 +1398,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scottish%20Church%20Collegiate%20School%2001.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Church_Collegiate_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q18164352",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1360,6 +1420,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St.%20Margaret%20School%20in%20Kolkata%2003.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68015417",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1381,6 +1442,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/G.T.S%20Tower%20near%20Paikpara%2001.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q67635550",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1404,6 +1466,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Currency_Building_-_Dalhousie_Square_-_Kolkata_2012-09-22_0289.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Currency_Building",
+  "asi_id": "N-WB-77",
   "wikidata": "https://www.wikidata.org/wiki/Q56245193",
   "further_reading": {
    "title": "Currency Building",
@@ -1429,6 +1492,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marble_Palace-_Kolkata-_West_Bengal-_DSC_0006.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Marble_Palace_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6755210",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1450,6 +1514,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_building_of_Calcutta_Medical_College_and_Hospital_03.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Medical_College_%26_Hospital,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3348933",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1473,6 +1538,7 @@
    "La Martiniere for Boys"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/La_Martini%C3%A8re_Calcutta",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6463753",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1494,6 +1560,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Library%2C_Calcutta_2007.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/National_Library_of_India",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q619913",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1515,6 +1582,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barrackpore_Government_High_School%2C_Barackpore%2C_Kolkata%2C_West_Bengal%2C_India_%282012%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Barrackpore_Government_High_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4863169",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1536,6 +1604,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Eastern_Entry.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Great_Eastern_Hotel,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q15217311",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -1557,6 +1626,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lower%20Circular%20Road%20cemetery.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lower_Circular_Road_cemetery",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q19893393",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1580,6 +1650,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Imperial_Library.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Metcalfe_Hall",
+  "asi_id": "N-WB-75",
   "wikidata": "https://www.wikidata.org/wiki/Q6823351",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -1601,6 +1672,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PrincepGhat.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Prinsep_Ghat",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7245233",
   "further_reading": {
    "title": "Prinsep Ghat",
@@ -1628,6 +1700,7 @@
    "Loreto College"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Loreto_House",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6680932",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1649,6 +1722,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Middleton_Row_%27St_Thomas_Church%27.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._Thomas_Church,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3584578",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1672,6 +1746,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipu_Sultan_Mosque_Dharmatala_at_Night.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Tipu_Sultan_Mosque",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3349172",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1693,6 +1768,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Duff College (Jorabagan Police Station)",
@@ -1718,6 +1794,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Howrah_Zilla_School.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Howrah_Zilla_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q48727756",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1739,6 +1816,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Stephens%20Church%20-%203%20Diamond%20Harbour%20Road%20-%20Kidderpore%20-%20Kolkata%202015-12-13%208037.JPG?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q69385831",
   "further_reading": {
    "title": "St. Stephen’s Church",
@@ -1764,6 +1842,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Chhoto Ras Bari, Chetla",
@@ -1791,6 +1870,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhineshwar_Temple_beside_the_Hoogly%2C_West_Bengal.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Dakshineswar_Kali_Temple",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1157765",
   "further_reading": {
    "title": "The REAL Dakshineswar Temple",
@@ -1818,6 +1898,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gwalior_Monument.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Gwalior_Monument",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q17054319",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -1839,6 +1920,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_Turf_Club_3.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Royal_Calcutta_Turf_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q16899442",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -1862,6 +1944,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Paul%27s_Cathedral.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._Paul%27s_Cathedral,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1898467",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1883,6 +1966,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bethune_School-Building.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Bethune_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q13059056",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1906,6 +1990,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20shot%20of%20Kamarghat%20Dwadash%20Shiv%20Mandir%20%28Chandra%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q58690155",
   "further_reading": {
    "title": "Kamarghat Dwadosh Shiv Mandir, Prankrishna Chandra Lane",
@@ -1931,6 +2016,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipu_Sultan_Masjid.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Tipu_Sultan_Masjid_Tollygunge",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q122698763",
   "further_reading": null,
   "date_source": "curated"
@@ -1952,6 +2038,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_-_Government_College_of_Art_%26_Craft_-_Chowringhee_Road_-_Kolkata_2013-04-15_6072.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5588733",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1973,6 +2060,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marble_Palace_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Marble_Palace_Zoo",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6755206",
   "further_reading": null,
   "date_source": "wikidata"
@@ -1994,6 +2082,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hastings_Chapel%2C_at_Hastings_in_Kolkata_08.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Hastings_Chapel,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q69392103",
   "further_reading": {
    "title": "Hastings Chapel",
@@ -2005,8 +2094,8 @@
  {
   "id": "Q40670133",
   "name": "Beth-El Synagogue",
-  "lat": 22.570505,
-  "lng": 88.350555,
+  "lat": 22.575731,
+  "lng": 88.352253,
   "era": "Company Raj",
   "year": 1856,
   "built": "1856",
@@ -2019,6 +2108,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beth%20El%20Synagogue%20-%20Pollock%20Street%20-%20Kolkata%202013-03-03%205371.JPG?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": "N-WB-80",
   "wikidata": "https://www.wikidata.org/wiki/Q40670133",
   "further_reading": {
    "title": "Beth El Synagogue",
@@ -2044,6 +2134,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_Girls_High_School_2006_stamp_of_India.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Girls%27_High_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018925",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2065,6 +2156,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IIEST%2C_Howrah%2C_India.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/IIEST,_Shibpur",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3348743",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2086,6 +2178,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Calcutta%207383.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/University_of_Calcutta",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1145306",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2107,6 +2200,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabindra_Sarovar_Lake.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Rowing_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018951",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -2128,6 +2222,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": null,
   "date_source": "curated"
@@ -2149,6 +2244,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Uttarpara_Library.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Uttarpara_Public_Library",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7903416",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2172,6 +2268,7 @@
    "St. Xavier's Collegiate School"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/St._Xavier%27s_College,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7592175",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2193,6 +2290,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A6%B6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%A6%E0%A6%B9_%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87_%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8_%E0%A7%A7.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Sealdah_railway_station",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3347406",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2216,6 +2314,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Another_view_of_St._James_Church%2C_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._James%27_Church,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q17021121",
   "further_reading": null,
   "date_source": "curated"
@@ -2237,6 +2336,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A6%87%E0%A6%A1%E0%A7%87%E0%A6%A8_%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%87_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6_%E0%A6%93_%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A7%AB.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Eden_Gardens",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2035004",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -2258,6 +2358,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/N.%20R.%20S%20Medical%20College%20%26%20Hospital%2005.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Nil_Ratan_Sircar_Medical_College_and_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q14957107",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2279,6 +2380,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q69344904",
   "further_reading": null,
   "date_source": "curated"
@@ -2300,6 +2402,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gate%20of%20Sibtainbad%20Imambara%2C%20Metiabruz.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q56688361",
   "further_reading": {
    "title": "Garden Reach: The Forgotten Kingdom of Nawab Wajid Ali Shah",
@@ -2325,6 +2428,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_James%27_School_-_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._James%27_School_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7588404",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2346,6 +2450,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Paul%27s_Cathedral_Mission_College_-_33-1_Amherst_Street_-_Kolkata_2014-01-01_1816.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/St._Paul%27s_Cathedral_Mission_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7591027",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2369,6 +2474,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nistarini%20Kali%20Bari%20temple%20complex%20of%20Bethune%20Row%2C%20Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q16345719",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2390,6 +2496,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_Jain_Temple-Sheetalnath_Mandir-P1080642.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Jain_Temple",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018937",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -2411,6 +2518,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/General_Post_Office%2C_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/General_Post_Office,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3350712",
   "further_reading": {
    "title": "General Post Office (GPO)",
@@ -2436,6 +2544,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%2C_Osmond_Memorial_Church.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Osmond_Memorial_Church",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7107209",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2457,6 +2566,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q75535994",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2478,6 +2588,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_High_Court.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_High_Court",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1026391",
   "further_reading": {
    "title": "High Court",
@@ -2503,6 +2614,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohun_Bagan_Ground_and_gallery_09.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Mohun_Bagan_Ground",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q15254588",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2524,6 +2636,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A6%88%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%B0_%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%87%E0%A6%B0_%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF_%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AF.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Vidyasagar_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7928225",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2545,6 +2658,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Old Telegraph Office (Dead Letter Office)",
@@ -2570,6 +2684,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Basu Bati",
@@ -2595,6 +2710,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Market%2C_Kolkata%2C_2011.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/New_Market,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7010004",
   "further_reading": null,
   "date_source": "curated"
@@ -2618,6 +2734,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Annapurna_Temple_of_Titagarh-Barrackpore_in_North_24_Parganas_19.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Annapurna_Temple,_Titagarh",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q110916712",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2639,6 +2756,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Finding_for_food.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Zoological_Garden,_Alipore",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3346440",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2660,6 +2778,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Association_for_the_Cultivation_Of_Science_%28New_Gate%29.png?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Indian_Association_for_the_Cultivation_of_Science",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3347871",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2681,6 +2800,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%20Boys%27%20School%20Main%20Campus%2001.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Boys%27_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018918",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2702,6 +2822,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City_College_Kolkata_Amherst_Street.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/City_College,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5123111",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2723,6 +2844,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/EdenHospitalCorridor.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Eden_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5336871",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2744,6 +2866,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Homoeopathic_Medical_College_%26_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q39046585",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2765,6 +2888,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Treasury Building",
@@ -2790,6 +2914,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Star_theatre.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Star_Theatre,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7600935",
   "further_reading": null,
   "date_source": "curated"
@@ -2813,6 +2938,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maghen_David_Synagogue_-_Kolkata_2012-09-22_0275-0276_Combined.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Magen_David_Synagogue_(Kolkata)",
+  "asi_id": "N-WB-79",
   "wikidata": "https://www.wikidata.org/wiki/Q6730097",
   "further_reading": {
    "title": "Maghen David Synagogue, Canning Street",
@@ -2838,6 +2964,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramakrishna_Math%2C_Baranagar_-_48097764998.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Baranagar_Math",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q14947352",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2859,6 +2986,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/R.%20G.%20Kar%20Medical%20College%20%26%20Hospital%20during%20Covid-19%2004.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/R._G._Kar_Medical_College_and_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7152833",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2880,6 +3008,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ezra_Hospital%2CCalcutta.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Ezra_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5423365",
   "further_reading": null,
   "date_source": "curated"
@@ -2901,6 +3030,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_Swimming_Club_%2814652809420%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Swimming_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7720956",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2922,6 +3052,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": null,
   "date_source": "curated"
@@ -2943,6 +3074,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Suburban_Reading_Club.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Suburban_Reading_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q125358458",
   "further_reading": null,
   "date_source": "curated"
@@ -2964,6 +3096,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brahmo%20Balika%20Shikshalaya.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q16255382",
   "further_reading": null,
   "date_source": "wikidata"
@@ -2985,6 +3118,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "The Calcutta Collectorate",
@@ -3010,6 +3144,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%20Deaf%20%26%20Dumb%20School%20main%20gate.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68017984",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3031,6 +3166,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Minerva_Theatre,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q580740",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -3052,6 +3188,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Tollygunge_Club",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3349499",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3073,6 +3210,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Standard Life Assurance Building",
@@ -3098,6 +3236,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Ramakrishna_Sarada_Mission_Sister_Nivedita_Girls%27_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7289695",
   "further_reading": null,
   "date_source": "curated"
@@ -3119,6 +3258,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belur_Math%2C_Howrah.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Belur_Math",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q816234",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3142,6 +3282,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%2C%20St%20Francis-Xavier%20Church.JPG?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q15958190",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3163,6 +3304,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bengal_Chemicals_%26_Pharmaceuticals_Limited_-_Kolkata_7336.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Bengal_Chemicals_and_Pharmaceuticals",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4887610",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3184,6 +3326,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nahoum_%26_Sons_confectionary_Calcutta_Kolkata.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Nahoum_%26_Sons",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q110984229",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3207,6 +3350,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamondas%20Mookerjee%20Kalibari%20Temple.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q31726848",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3228,6 +3372,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rammohun%20Library%20and%20Free%20Reading%20Room%20-%2002.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68023417",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3249,6 +3394,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_historical_Federation_Hall_and_library_at_APC_road_in_Kolkata_21.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Federation_Hall,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68025061",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3272,6 +3418,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/065.STARTED_FROM_HOTEL_MANISH_ON_14.08.2017_AT_02-30_P.M._FOR_HOWRAH_RAILWAY_STATION_BY_HIRED_TAXI.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Howrah_railway_station",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q986105",
   "further_reading": null,
   "date_source": "curated"
@@ -3293,6 +3440,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Metropolitan_Building%2C_Esplanade_Kolkata_%28Original%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Metropolitan_Building_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6825020",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -3314,6 +3462,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Royal Insurance Building",
@@ -3339,6 +3488,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Sea Ip Church",
@@ -3364,6 +3514,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alipore_Central_jail.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Alipore_Central_Jail",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4726823",
   "further_reading": null,
   "date_source": "curated"
@@ -3385,6 +3536,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaplin_-_Cinema_-_Hogg_Street_-_Kolkata_2013-04-15_6059.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Chaplin_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5073228",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -3406,6 +3558,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Roxy_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7372457",
   "further_reading": null,
   "date_source": "curated"
@@ -3427,6 +3580,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": null,
   "date_source": "curated"
@@ -3450,6 +3604,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Gillander House",
@@ -3475,6 +3630,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Netaji_house_kolkatta.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Netaji_Bhawan",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q11325387",
   "further_reading": null,
   "date_source": "curated"
@@ -3496,6 +3652,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tala%20water%20tank%2002.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Tala_tank",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q31726001",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3517,6 +3674,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Baker_Hostel",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q90092840",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -3541,6 +3699,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Esplanade-Mansion-Front-View-Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Esplanade_Mansions,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68470889",
   "further_reading": {
    "title": "Esplanade Mansions",
@@ -3566,6 +3725,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Temple Chambers",
@@ -3591,6 +3751,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Neveh Shalome Synagogue",
@@ -3616,6 +3777,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Outram_Ghat",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7112897",
   "further_reading": null,
   "date_source": "curated"
@@ -3637,6 +3799,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OberoiGrandHotelKolkata_gobeirne.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Grand_Hotel_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5594620",
   "further_reading": null,
   "date_source": "curated"
@@ -3658,6 +3821,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_School_of_Tropical_Medicine_-_108_Chittaranjan_Avenue_-_Kolkata_2014-10-30_0184-0189.tif?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_School_of_Tropical_Medicine",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018955",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3679,6 +3843,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "New Central Telegraph Office",
@@ -3704,6 +3869,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sumit_Chakraborty.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/University_College_of_Science,_Technology_and_Agriculture",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7285591",
   "further_reading": null,
   "date_source": "curated"
@@ -3725,6 +3891,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%B6%E0%A6%BE%E0%A6%B2%20%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Bankshall_Court",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q60752059",
   "further_reading": null,
   "date_source": "curated"
@@ -3746,6 +3913,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_School_of_Music.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_School_of_Music",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018954",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3767,6 +3935,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/East_Bengal_ground.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/East_Bengal_Ground",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q2408126",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3788,6 +3957,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Asutosh_College_main_building%2C_July_2020.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Asutosh_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4811950",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3809,6 +3979,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Goenka Ghat",
@@ -3834,6 +4005,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashtanga%20Ayurveda%20Hospital%2C%20Raja%20Dinendra%20Street%2C%20Kolkata%2C%201964.png?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/J.B._Roy_State_Ayurvedic_Medical_College_and_Hospital",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q104869353",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3855,6 +4027,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bose_Institute_Emblem_%28Vectorized%29.svg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Bose_Institute",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4947204",
   "further_reading": null,
   "date_source": "wikidata"
@@ -3876,6 +4049,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68454615",
   "further_reading": null,
   "date_source": "curated"
@@ -3897,6 +4071,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Royal Exchange",
@@ -3926,6 +4101,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria_Memorial_situated_in_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q1356352",
   "further_reading": {
    "title": "6 Things You Don't Know About Calcutta's Victoria Memorial",
@@ -3951,6 +4127,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Dumraon House",
@@ -3976,6 +4153,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Hong Kong House",
@@ -4001,6 +4179,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Bengali War Memorial",
@@ -4026,6 +4205,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascar_War_memorial.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lascar_War_Memorial",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q15241748",
   "further_reading": {
    "title": "Lascar War Memorial",
@@ -4051,6 +4231,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Toong On Church",
@@ -4076,6 +4257,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Mackinnon Mackenzie & Co.",
@@ -4101,6 +4283,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maulana_Azad_College.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Maulana_Azad_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q13059486",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4124,6 +4307,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nakhoda_Mosque_Night.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Nakhoda_Mosque",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q12062296",
   "further_reading": {
    "title": "Nakhoda Masjid",
@@ -4149,6 +4333,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_Technical_School",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018961",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4170,6 +4355,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flurys%2C_Park_Street%2C_Kolkata%2C_Street_View.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Flurys",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q30675353",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4191,6 +4377,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q70891143",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4212,6 +4399,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Myanmar (Burma) Buddhist Temple",
@@ -4237,6 +4425,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Mohammedan_Sporting_Ground",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6893503",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4258,6 +4447,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Complete_view_of_West_Bengal_Assembly_building_in_Kolkata_01.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Vidhan_Sabha_Bhavan",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q108598529",
   "further_reading": null,
   "date_source": "curated"
@@ -4279,6 +4469,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hooghly_River1.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Vivekananda_Setu",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q844900",
   "further_reading": null,
   "date_source": "curated"
@@ -4300,6 +4491,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/All%20India%20Institute%20of%20Hygiene%20and%20Public%20Health.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/All_India_Institute_of_Hygiene_and_Public_Health",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4728949",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4321,6 +4513,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/New_Empire_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7007106",
   "further_reading": null,
   "date_source": "curated"
@@ -4342,6 +4535,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emblem-Ramakrishna-Mission-Transparent.png?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Vivekananda_Institute_of_Medical_Sciences,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7288808",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4363,6 +4557,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_view_of_the_Victoria_Institution_College_in_78_B%2C_A._P._C._Road%2C_Baithakkhana%2C_Sealdah%2C_Kolkata%2C_2022.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Victoria_Institution_(College)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7926797",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4384,6 +4579,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_of_Academy_of_Fine_Arts_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Academy_of_Fine_Arts,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4671456",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4405,6 +4601,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Nizam Palace",
@@ -4430,6 +4627,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lighthouse_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6546328",
   "further_reading": null,
   "date_source": "curated"
@@ -4455,6 +4653,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Metro_Cinema_-_Esplanade_-_Kolkata_2011-12-18_0024.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Metro_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6824536",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -4476,6 +4675,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Nipponzan Myohoji Japanese Buddhist Temple",
@@ -4501,6 +4701,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_mascot_of_fairlawn.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Elgin_Fairlawn,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q55610732",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -4522,6 +4723,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Asutosh_Museum_of_Indian_Art",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4811954",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4543,6 +4745,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emblem-Ramakrishna-Mission-Transparent.png?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Ramakrishna_Mission_Institute_of_Culture",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7288805",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4564,6 +4767,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_-_Lady_Brabourne_College_-_P_1-2_Suhrawardy_Avenue_-_Kolkata_2015-02-28_3579.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lady_Brabourne_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6469995",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4585,6 +4789,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MAHAJATI_SADAN_KOLKATA_-_panoramio.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Mahajati_Sadan",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6732833",
   "further_reading": null,
   "date_source": "curated"
@@ -4606,6 +4811,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elite_Cinema_Hall_in_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Elite_Cinema_Hall,_Calcutta",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q34501238",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4627,6 +4833,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaudiya_Math_-_Baghbazar_-_Kolkata_2017-04-29_1820.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Gaudiya_Mission",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q60761242",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4648,6 +4855,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Zohra Begum Masjid",
@@ -4673,6 +4881,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Coffee_House%2C_Kolkata_%286334188949%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/College_Street_Coffee_House",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q4711938",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4694,6 +4903,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Howrah_bridge_at_night.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Howrah_Bridge",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q739641",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4715,6 +4925,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Paradise_Cinema_(Kolkata)",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7134255",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -4736,6 +4947,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta_National_Medical_College_and_Hospital_3.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Calcutta_National_Medical_College",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5018942",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4757,6 +4969,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakshina_Kali_-_Sree_Sree_108_Karunamoyee_Kalimata_Mandir_-_Lake_Kalibari_-_Kolkata_2015-02-15_5945.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Lake_Kalibari",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q6476396",
   "further_reading": null,
   "date_source": "curated"
@@ -4778,6 +4991,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Idol_of_Maa_Durga_at_Kumortuli.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Dhakeshwari_Mata_Temple,_Kumortuli",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q54317695",
   "further_reading": null,
   "date_source": "curated"
@@ -4799,6 +5013,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Subhas_Sarobar",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68030125",
   "further_reading": null,
   "date_source": "curated"
@@ -4820,6 +5035,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nirmal_Hriday_facade.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Kalighat_Home_for_the_Dying",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3342122",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4841,6 +5057,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Birla_Industrial_%26_Technological_Museum%2C_Kolkata.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Birla_Industrial_%26_Technological_Museum",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q3532605",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4862,6 +5079,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/State_Archaeological_Museum_-_1_Satyen_Roy_Road_-_Behala_-_Kolkata_2015-12-12_7779-7782.tiff?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/State_Archaeological_Museum",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7603021",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4883,6 +5101,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gurusaday_Museum.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Gurusaday_Museum",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q16934749",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4904,6 +5123,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fatima_parish.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Fatima_Church,_Kolkata",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q28007387",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4925,6 +5145,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Everest_House_-_46C_Chowringhee_Road_-_Kolkata_2013-01-05_2423_%28cropped%29.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Everest_House",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q5416955",
   "further_reading": null,
   "date_source": "wikipedia"
@@ -4946,6 +5167,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Office%20of%20the%20Deputy%20Commissioner%20Kolkata%20Police%20%28N%29%20and%20Police%20Museum%2001.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q56682413",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4967,6 +5189,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raja%20Rammohan%20Roy%20Memorial%20Museum%2020190115%20073552%2001.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q56682483",
   "further_reading": null,
   "date_source": "wikidata"
@@ -4988,6 +5211,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Swami_Vivekananda%27s_Ancestral_House_%26_Cultural_Centre_Door_-_Kolkata_2011-10-22_6073.JPG?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Ramakrishna_Mission_Swami_Vivekananda%27s_Ancestral_House_and_Cultural_Centre",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7288812",
   "further_reading": null,
   "date_source": "wikidata"
@@ -5009,6 +5233,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sabarna%20Sangrahashala%2002.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Sabarna_Sangrahashala",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q7395916",
   "further_reading": null,
   "date_source": "wikidata"
@@ -5030,6 +5255,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Railways_Museum_in_Howrah_15.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Rail_Museum,_Howrah",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q56683370",
   "further_reading": null,
   "date_source": "wikidata"
@@ -5051,6 +5277,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SBI%20Museum%20C5.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/State_Bank_Archives_and_Museum",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q120883508",
   "further_reading": null,
   "date_source": "curated"
@@ -5074,6 +5301,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/26%20Siva%20Temples.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": "N-WB-4",
   "wikidata": "https://www.wikidata.org/wiki/Q56152661",
   "further_reading": null,
   "date_source": null
@@ -5095,6 +5323,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Baneshwar Shiva Temple",
@@ -5120,6 +5349,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_historical_Chinese_temple%2C_at_abandoned_Chinese_colony_in_Achhipur%2C_South_24_Pargana_02.jpg?width=900",
   "also_known_as": null,
   "wikipedia": "https://en.wikipedia.org/wiki/Achipur_Chinese_Temple",
+  "asi_id": null,
   "wikidata": "https://www.wikidata.org/wiki/Q137780795",
   "further_reading": {
    "title": "Forgotten History: The Gunpowder Magazine of Achipur",
@@ -5145,6 +5375,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Court of Small Causes",
@@ -5170,6 +5401,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Ezra Mansion",
@@ -5195,6 +5427,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Graham Building",
@@ -5220,6 +5453,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "House of Arathoon Stephen",
@@ -5245,6 +5479,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Martin & Co.",
@@ -5270,6 +5505,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "McLeod House",
@@ -5295,6 +5531,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Murshidabad House",
@@ -5320,6 +5557,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Niyamatullah Ghat Masjid",
@@ -5345,6 +5583,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Ralli Brothers",
@@ -5370,6 +5609,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayer%20Ghat%20at%20Belur%20Math.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": "N-WB-74",
   "wikidata": "https://www.wikidata.org/wiki/Q56244285",
   "further_reading": null,
   "date_source": null
@@ -5391,6 +5631,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "The Metropolitan Nursing Home",
@@ -5416,6 +5657,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Turner Morrison & Co.",
@@ -5441,6 +5683,7 @@
   "image": null,
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": null,
   "wikidata": null,
   "further_reading": {
    "title": "Wallace House",
@@ -5466,6 +5709,7 @@
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Warrens%20Hastings%20House.jpg?width=900",
   "also_known_as": null,
   "wikipedia": null,
+  "asi_id": "N-WB-5",
   "wikidata": "https://www.wikidata.org/wiki/Q56153143",
   "further_reading": null,
   "date_source": null
