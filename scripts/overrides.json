@@ -79,16 +79,18 @@
   "year": 2007
  },
  "Q5570972": {
-  "year": null,
-  "built": "Date not recorded"
+  "year": 1827,
+  "built": "1827 (as the Old Opera House)"
  },
  "Q6476396": {
-  "year": null,
-  "built": "Date not recorded"
+  "year": 1949,
+  "built": "1949"
  },
  "Q54317695": {
   "name": "Dhakeshwari Mata Temple, Kumortuli",
-  "description": "A Dhakeshwari temple in Kumortuli, north Kolkata's potters' quarter, founded by refugees from Dhaka who carried the tradition of the Dhakeshwari shrine across the border. It stands among the studios that still supply clay images for the city's Durga Puja."
+  "description": "A Dhakeshwari temple in Kumortuli, north Kolkata's potters' quarter, founded by refugees from Dhaka who carried the tradition of the Dhakeshwari shrine across the border. It stands among the studios that still supply clay images for the city's Durga Puja.",
+  "year": 1950,
+  "built": "1950"
  },
  "Q6823351": {
   "category": "Museum, Library & Archive"
@@ -106,5 +108,96 @@
   "year": null,
   "built": "Date not recorded",
   "description": "The Lord Jesus Church, Prabhu Jisur Girja, at Taltala. Built as a Church of Scotland Presbyterian church, it was handed over to the Jesuits in 1969, who made it a centre for their apostolic work — 1969 is the date of that handover, not of the building, whose own date is not on record."
+ },
+ "gmap-neveh-shalome-synagogue": {
+  "year": 1911,
+  "built": "1911"
+ },
+ "Q69385831": {
+  "year": 1846,
+  "built": "consecrated 1846"
+ },
+ "gmap-new-central-telegraph-office": {
+  "year": 1914,
+  "built": "1914"
+ },
+ "gmap-mackinnon-mackenzie-co": {
+  "year": 1925,
+  "built": "1925–26 (Inchcape House)"
+ },
+ "Q6732833": {
+  "year": 1939,
+  "built": "foundation stone 1939; opened 1959"
+ },
+ "Q5594620": {
+  "year": 1911,
+  "built": "rebuilt from 1911"
+ },
+ "Q4726823": {
+  "year": 1906,
+  "built": "1906"
+ },
+ "Q7112897": {
+  "year": 1911,
+  "built": "landing stage, 1911"
+ },
+ "Q6480048": {
+  "year": 1709,
+  "built": "pre-1690; enlarged 1709"
+ },
+ "osm-nizam-palace": {
+  "year": 1933,
+  "built": "1933",
+  "description": "Built in 1933 by J. C. Galstaun, the Armenian horse-breeder turned property magnate who put up a good deal of south-central Calcutta, and named Galstaun Park for his wife. The seventh Nizam of Hyderabad bought it as his Calcutta residence and called it Saba Palace; the name shortened to Nizam Palace and stuck. It is now a central government office complex."
+ },
+ "Q66809965": {
+  "year": 1750,
+  "built": "before c. 1750",
+  "description": "An aat-chala Hindu shrine at Aldeen in Serampore, already abandoned by the middle of the eighteenth century. David Brown bought the Aldeen estate in 1803, and when Henry Martyn arrived from Cornwall in 1806 asking for somewhere secluded to live and pray, Brown pointed him at the empty temple. Martyn turned it into a chapel. It is a State Protected Monument."
+ },
+ "Q7372457": {
+  "year": 1908,
+  "built": "1908, as an opera house"
+ },
+ "gmap-bengali-war-memorial": {
+  "year": 1924,
+  "built": "1924"
+ },
+ "Q68030125": {
+  "year": 1950,
+  "built": "1950s"
+ },
+ "osm-myanmar-buddhist-temple": {
+  "year": 1928,
+  "built": "1928"
+ },
+ "Q67903835": {
+  "year": 1829,
+  "built": "1824–29",
+  "description": "The third Calcutta mint, planned from 1819, its foundation stone laid in March 1824 and opened for coinage on 1 August 1829. Major-General William Nairn Forbes designed it and ran it as Mint Master for thirty-one years; he gave it a portico copied from the Parthenon and went on to build St. Paul's Cathedral. At its height it struck up to six hundred thousand coins a day."
+ },
+ "Q68454615": {
+  "year": 1918,
+  "built": "1914–18",
+  "description": "The police bought 18 Lalbazar Street in 1835, the house of the merchant John Palmer. Palmer's house came down in 1914 and this four-storey red-brick headquarters went up in its place, designed by Henry Crouch and built by J. C. Banerjee & Co. by 1918."
+ },
+ "Q69344904": {
+  "year": 1864,
+  "built": "late-18th-century buildings; Central Prison from 1864",
+  "description": "The older of the two Alipore jails, with buildings said to date from the late eighteenth century, made the first Central Prison in Bengal in 1864 and renamed Presidency Jail in 1913 when the newer jail took over its work. Aurobindo Ghosh was held here in a solitary cell through the Alipore Bomb Case of 1908–09, and Subhas Chandra Bose in 1940."
+ },
+ "Q69398592": {
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sola_Ana_Masjid_and_Burial_Ground_Entrance_-_70-1A_Ekbalpore_Road_-_Kolkata_2015-12-13_8204.JPG?width=900",
+  "description": "The Sola Ana mosque and graveyard at Ekbalpore in Khidirpur, the burial ground lying inside the mosque compound. The mosque is kept by the Waqf Board and the graveyard by the municipality. No date for either is on record."
+ },
+ "osm-jewish-cemetery-narkeldanga": {
+  "year": 1812,
+  "built": "1812",
+  "description": "Shalom Aharon Obadiah ha-Cohen reached Calcutta from Aleppo in 1798, the first recorded Jewish settler; the story goes that he asked a Bengali friend for ground to bury his community and was given it for nothing. The first burial here, of Hacham Moses de Pas of Safed, was on 1 January 1812. The prayer hall was finished in 1921. The community that filled the cemetery — the Ezras, the Gubbays, the Nahoums — has almost entirely gone, and this is now one of the fullest records left of it."
+ },
+ "Q125358458": {
+  "year": 1888,
+  "built": "founded 1888; own building from 1900",
+  "description": "Founded in 1888 in a room of Narkeldanga High School by Gurudas Banerjee, Rajendralal Mitra, Rakhal Chandra Ghosh and the schoolmaster Harish Chandra Chakraborty, to give the eastern suburbs a library. Chakraborty ran it out of his own house when the school room proved too small, and bought land for a building of its own in 1900. It holds over thirty thousand books."
  }
 }

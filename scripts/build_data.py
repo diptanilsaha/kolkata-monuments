@@ -437,7 +437,6 @@ def main():
             "address": item.get("address") or address_for(item, details),
             "km_from_centre": item["km"],
             "image": thumbnail(override.get("image") or page.get("image") or item.get("image")),
-            "coord_source": item.get("coord_source"),
             "also_known_as": item.get("also_known_as"),
             "wikipedia": item.get("article"),
             "wikidata": (f"https://www.wikidata.org/wiki/{item['qid']}"
