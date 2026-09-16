@@ -1,6 +1,6 @@
 # The Many Calcuttas — a city in layers
 
-An interactive map of the heritage of Kolkata and its suburbs: 240 sites, each
+An interactive map of the heritage of Kolkata and its suburbs: 244 sites, each
 plotted where it stands and coloured by the era that built it.
 
 ![The map](preview.jpg)
@@ -28,9 +28,9 @@ host. If you do, set `og:image` in `index.html` to the absolute URL of
 
 | | |
 |---|---|
-| Sites | 240 |
-| With a construction date | 226 |
-| With a photograph | 174 |
+| Sites | 244 |
+| With a construction date | 227 |
+| With a photograph | 178 |
 | With a street address | 180 |
 | With a further-reading link | 69 |
 | Coverage | ~25 km from Lal Dighi, plus Achipur at 27 km |
@@ -98,11 +98,14 @@ confirmed, and a pin that cannot be confirmed is worse than no pin.
 
 ### On dates
 
-226 of 240 sites carry a year. A site with no date is not carried: English
-Wikipedia, Wikidata, the KMC register and the heritage blogs were all searched
-for every undated entry, and 122 sites that none of them could date were
-dropped. The fourteen that remain undated are hand-added sites kept on purpose,
-each with a published account behind it.
+227 of 244 sites carry a year. A site with no date is not generally carried:
+English Wikipedia, Wikidata, the KMC register and the heritage blogs were all
+searched for every undated entry, and 118 that none of them could date were
+dropped. Two things are exempt. Hand-added sites stay, because each was put on
+the map deliberately and has an account behind it. So do ASI Monuments of
+National Importance — the designation is itself the evidence, and no published
+source gives a year for Warren Hastings' villa at Barasat, Clive's House at Dum
+Dum or the twenty-six Shiva temples at Khardah.
 
 Dating the undated is slow work done one site at a time, because the traps are
 consistent. A firm's founding date is not its building's date — McLeod & Co.
@@ -113,11 +116,11 @@ the jail was built in 1906. Bulk text-matching produced a confident wrong answer
 nearly every time it produced one at all, so every date here was read in context
 and accepted or rejected by hand, and recorded in `scripts/overrides.json`.
 
-Dropping the undated cost real monuments — Warren Hastings' House and Clive's
-House at Barrackpore are ASI Monuments of National Importance, and the tombs of
-Charles Watson and Frances Johnson are State Protected, but no published source
-gives a year for any of them. The rule in `build_data.py` is one line, and
-exempting a designation is one more.
+The rule still costs something. The tombs of Charles Watson and Frances Johnson
+are State Protected Monuments of the 1750s and 1760s, and they went, because
+State Protection is a different list from the ASI's and neither carries a date.
+The exemption in `build_data.py` is one line, and adding a designation to it is
+one more.
 
 ## Rebuilding the dataset
 

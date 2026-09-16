@@ -155,6 +155,27 @@
   "date_source": "curated"
  },
  {
+  "id": "Q56152584",
+  "name": "Clive's House",
+  "lat": 22.626404,
+  "lng": 88.416153,
+  "era": "Early Settlement",
+  "year": 1756,
+  "built": "standing before 1756",
+  "category": "Rajbari, Mansion & House",
+  "description": "Probably the oldest building left in Kolkata, and older than the man it is named for. It was standing before 1756 in some form — a Portuguese or Dutch factory for cotton or saltpetre by one account, a late-Mughal house held by Alivardi Khan and Siraj-ud-Daulah by another — before Robert Clive took it as his country seat from 1757. It sits on a mound that has given up pottery of the Sunga-Kushana, Gupta and post-Gupta periods, which puts settlement here close to the first century AD. The ASI took it over in 2000 and it has been fighting decay ever since.",
+  "styles": [],
+  "architects": [],
+  "address": null,
+  "km_from_centre": 8.0,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/N-WB-3%20%281%29.jpg?width=900",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q56152584",
+  "further_reading": null,
+  "date_source": "curated"
+ },
+ {
   "id": "Q987578",
   "name": "Maidan",
   "lat": 22.551389,
@@ -5035,6 +5056,29 @@
   "date_source": "curated"
  },
  {
+  "id": "Q56152661",
+  "name": "26 Shiva temple",
+  "lat": 22.725739,
+  "lng": 88.362343,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Temple & Thakurbari",
+  "description": "Twenty-six aat-chala shrines at Khardah raised by Ramhari Biswas and Pran Krishna Biswas, landlords of the place, in the early nineteenth century — twenty set in a square and six more turned to face the river. Each holds a Shiva linga. Protected by the ASI.",
+  "styles": [
+   "At-chala"
+  ],
+  "architects": [],
+  "address": null,
+  "km_from_centre": 17.0,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/26%20Siva%20Temples.jpg?width=900",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q56152661",
+  "further_reading": null,
+  "date_source": null
+ },
+ {
   "id": "gmap-baneshwar-shiva-temple",
   "name": "Baneshwar Shiva Temple",
   "lat": 22.599798,
@@ -5310,6 +5354,27 @@
   "date_source": null
  },
  {
+  "id": "Q56244285",
+  "name": "Sri Mayer Ghat",
+  "lat": 22.629156,
+  "lng": 88.358781,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Ghat & Riverfront",
+  "description": "A bathing ghat on the Hooghly north of the city, protected as a Monument of National Importance. The name — the Mother's ghat — ties it to Sarada Devi, the Holy Mother of the Ramakrishna order, whose houses and ashrams stand along this stretch of the river. No date for it is recorded.",
+  "styles": [],
+  "architects": [],
+  "address": null,
+  "km_from_centre": 6.3,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayer%20Ghat%20at%20Belur%20Math.jpg?width=900",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q56244285",
+  "further_reading": null,
+  "date_source": null
+ },
+ {
   "id": "gmap-the-metropolitan-nursing-home",
   "name": "The Metropolitan Nursing Home",
   "lat": 22.545084,
@@ -5382,6 +5447,27 @@
    "url": "https://double-dolphin.blogspot.com/2014/07/wallace-house-4-bankshall-street.html",
    "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
   },
+  "date_source": null
+ },
+ {
+  "id": "Q56153143",
+  "name": "Warren Hastings' House",
+  "lat": 22.722332,
+  "lng": 88.488037,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Rajbari, Mansion & House",
+  "description": "The villa Warren Hastings built for himself in the middle of Barasat, a day's ride out of the city, while he was the first Governor-General of Bengal. Protected by the ASI as monument N-WB-5. No year for it is on record.",
+  "styles": [],
+  "architects": [],
+  "address": null,
+  "km_from_centre": 20.9,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Warrens%20Hastings%20House.jpg?width=900",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": "https://www.wikidata.org/wiki/Q56153143",
+  "further_reading": null,
   "date_source": null
  }
 ]

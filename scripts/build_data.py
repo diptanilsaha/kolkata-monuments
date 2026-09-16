@@ -458,8 +458,12 @@ def main():
     # blogs, the KMC register and Wikidata were all searched, and for these the
     # year simply is not recorded. Hand-added sites are kept regardless — they
     # were put on the map deliberately and each has an account behind it.
-    manual_ids = {i["qid"] for i in load_manual()}
-    undated = [m for m in monuments if not m["year"] and m["id"] not in manual_ids]
+    # ASI Monuments of National Importance are kept whether or not anyone has
+    # published a date for them: the designation is itself the evidence.
+    keep_undated = {i["qid"] for i in load_manual()}
+    keep_undated |= {i["qid"] for i in items
+                     if "Monument of National Importance" in i.get("heritage", [])}
+    undated = [m for m in monuments if not m["year"] and m["id"] not in keep_undated]
     if undated:
         print(f"  dropped as undated: {len(undated)}")
     monuments = [m for m in monuments if m not in undated]
