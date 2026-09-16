@@ -1,0 +1,38 @@
+[
+ {
+  "name": "Early Settlement",
+  "from": null,
+  "to": 1756,
+  "blurb": "Job Charnock's factory grows into a town on three villages: the old fort, the first churches, the first burial grounds — most of it swept away in the sack of 1756."
+ },
+ {
+  "name": "Company Raj",
+  "from": 1757,
+  "to": 1857,
+  "blurb": "After Plassey. The Palladian 'City of Palaces' of the East India Company, the Bengal Renaissance, and the merchant houses of the north."
+ },
+ {
+  "name": "Imperial Capital",
+  "from": 1858,
+  "to": 1911,
+  "blurb": "Crown rule. Calcutta as capital of British India — Gothic and Indo-Saracenic public works, museums, courts and colleges."
+ },
+ {
+  "name": "Late Raj & Art Deco",
+  "from": 1912,
+  "to": 1947,
+  "blurb": "The capital leaves for Delhi. Calcutta answers with the Victoria Memorial, Art Deco cinemas and the Howrah Bridge."
+ },
+ {
+  "name": "Independent India",
+  "from": 1948,
+  "to": null,
+  "blurb": "What the city has built, converted or memorialised since 1947."
+ },
+ {
+  "name": "Date Undetermined",
+  "from": null,
+  "to": null,
+  "blurb": "Listed heritage with no construction date on public record — most of them ordinary streets-corner buildings that outlived their builders' paperwork."
+ }
+]
