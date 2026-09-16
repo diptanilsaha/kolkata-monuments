@@ -1,6 +1,6 @@
 # The Many Calcuttas — a city in layers
 
-An interactive map of the heritage of Kolkata and its suburbs: 360 sites, each
+An interactive map of the heritage of Kolkata and its suburbs: 362 sites, each
 plotted where it stands and coloured by the era that built it.
 
 ![The map](preview.jpg)
@@ -28,10 +28,10 @@ host. If you do, set `og:image` in `index.html` to the absolute URL of
 
 | | |
 |---|---|
-| Sites | 360 |
-| With a construction date | 217 |
-| With a photograph | 277 |
-| With a street address | 284 |
+| Sites | 362 |
+| With a construction date | 219 |
+| With a photograph | 279 |
+| With a street address | 285 |
 | With a further-reading link | 69 |
 | Coverage | ~25 km from Lal Dighi, plus Achipur at 27 km |
 
@@ -98,7 +98,7 @@ confirmed, and a pin that cannot be confirmed is worse than no pin.
 
 ### On dates
 
-217 of 360 sites carry a year. The rest sit in **Date Undetermined**, and that
+219 of 362 sites carry a year. The rest sit in **Date Undetermined**, and that
 is deliberate: the KMC register does not record construction dates, and for many
 of the smaller listed houses no published source gives one. Rather than guess,
 they are shown as undated.

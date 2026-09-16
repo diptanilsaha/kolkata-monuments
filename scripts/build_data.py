@@ -89,6 +89,15 @@ EXCLUDE_QIDS = {
 # colonial city this map is about; their buildings are usually modern too.
 POST_1947_DROP_CATEGORIES = {"School, College & University", "Temple & Thakurbari"}
 
+# Exempt: temples whose significance is older than the building around them.
+# The Dhakeshwari at Kumortuli houses the original Dhaka idol, carried across
+# the border at Partition; Lake Kalibari is a Kali foundation of 1949 that the
+# city treats as one of its own.
+POST_1947_KEEP = {
+    "Q54317695",   # Dhakeshwari Mata Temple, Kumortuli
+    "Q6476396",    # Lake Kalibari
+}
+
 # Pairs of records that denote the same building or the same institution at the
 # same address. The absorbed record's name is kept on the survivor.
 # Not merged: separate structures that merely share a name or a compound —
@@ -446,7 +455,9 @@ def main():
         })
 
     dropped = [m for m in monuments
-               if m["category"] in POST_1947_DROP_CATEGORIES and (m["year"] or 0) > 1947]
+               if m["category"] in POST_1947_DROP_CATEGORIES
+               and (m["year"] or 0) > 1947
+               and m["id"] not in POST_1947_KEEP]
     if dropped:
         print("  dropped as post-1947:", ", ".join(f"{m['name']} ({m['year']})" for m in dropped))
     monuments = [m for m in monuments if m not in dropped]
