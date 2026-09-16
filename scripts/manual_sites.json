@@ -1,7 +1,6 @@
 [
  {
   "_comment": "Sites neither Wikidata query returns — either because they carry no heritage designation there, or because they sit outside the 25 km sweep. Every coordinate names its source; none were estimated. Descriptions are written here from facts stated in the cited sources, not copied from them.",
-
   "id": "Q137780795",
   "name": "Chinese Temple, Achipur",
   "lat": 22.451384,
@@ -86,7 +85,9 @@
   "year": 1909,
   "built": "1909",
   "address": "Netaji Subhas Road (Clive Street)",
-  "architects": ["Harry Stuart Goodhart-Rendel"],
+  "architects": [
+   "Harry Stuart Goodhart-Rendel"
+  ],
   "description": "Built for Gillanders, Arbuthnot & Co., one of the Scottish managing agencies that ran Clive Street, and completed in 1909. It resists the labels the rest of the city accepts — the Writers' Building is Greco-Roman, the High Court Gothic, Esplanade Mansions Art Nouveau — partly because its architect, Harry Stuart Goodhart-Rendel, was a composer as much as a designer."
  },
  {
@@ -176,5 +177,329 @@
   "category": "Rajbari, Mansion & House",
   "address": "234/4 Acharya Jagadish Chandra Bose Road",
   "description": "Built by J. C. Galstaun, the Armenian horse-breeder turned property magnate who put up a good deal of south-central Calcutta, and later sold to the Nizam of Hyderabad, whose title stuck to it. It is now a central government office complex."
+ },
+ {
+  "id": "gmap-temple-chambers",
+  "name": "Temple Chambers",
+  "lat": 22.568359,
+  "lng": 88.344336,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "6, Old Post Office St, B.B.D. Bagh",
+  "description": "Vincent Esch's office block on the corner of Esplanade Row West and Old Post Office Street, built in 1910 and let out as chambers to the solicitors and agents who worked the courts opposite.",
+  "year": 1910,
+  "built": "1910"
+ },
+ {
+  "id": "gmap-wallace-house",
+  "name": "Wallace House",
+  "lat": 22.572434,
+  "lng": 88.347054,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "4, Bankshall St, Fairley Place, B.B.D. Bagh",
+  "description": "The Calcutta house of Shaw Wallace, the firm Robert Gordon Shaw and Charles Wallace built from 1886 out of tea, jute, timber and later oil. It still stands at 4 Bankshall Street."
+ },
+ {
+  "id": "gmap-graham-building",
+  "name": "Graham Building",
+  "lat": 22.577207,
+  "lng": 88.349251,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "14, Netaji Subhas Rd, Murgighata, B.B.D. Bagh",
+  "description": "One of the mercantile blocks on Clive Street, built for Graham & Co., among the Scottish managing agencies that ran the jute and tea trades from this quarter mile."
+ },
+ {
+  "id": "gmap-ralli-brothers",
+  "name": "Ralli Brothers",
+  "lat": 22.578844,
+  "lng": 88.349896,
+  "coord_source": "located to the street, not the building footprint",
+  "category": "Commerce, Market & Hotel",
+  "address": "Clive Row",
+  "description": "The Calcutta office of Ralli Brothers, the Greek trading house founded by five brothers from Chios that became one of the largest exporters of jute and grain out of Bengal."
+ },
+ {
+  "id": "gmap-mackinnon-mackenzie-co",
+  "name": "Mackinnon Mackenzie & Co.",
+  "lat": 22.575781,
+  "lng": 88.347492,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "16, Strand Rd, Fairley Place, B.B.D. Bagh",
+  "description": "The Strand Road offices of Mackinnon Mackenzie, founded in Cossipore in 1847 by two Campbeltown Scots and agents for the British India Steam Navigation Company, which at its height ran more ships than any line in the world."
+ },
+ {
+  "id": "gmap-house-of-arathoon-stephen",
+  "name": "House of Arathoon Stephen",
+  "lat": 22.54967,
+  "lng": 88.353527,
+  "coord_source": "confirmed against the street address",
+  "category": "Rajbari, Mansion & House",
+  "address": "2, Camac St, Park Street area",
+  "description": "The Camac Street house of Arathoon Stephen, the Armenian who arrived in Calcutta with nothing, made a fortune in property and built the Grand Hotel on Chowringhee."
+ },
+ {
+  "id": "gmap-dumraon-house",
+  "name": "Dumraon House",
+  "lat": 22.549104,
+  "lng": 88.354182,
+  "coord_source": "confirmed against the street address",
+  "category": "Rajbari, Mansion & House",
+  "address": "26, Camac St, Park Street area",
+  "description": "Built in 1922 as the Calcutta residence of the Maharaja of Dumraon, one of the Bihar houses that kept a town address here for the season.",
+  "year": 1922,
+  "built": "1922"
+ },
+ {
+  "id": "gmap-murshidabad-house",
+  "name": "Murshidabad House",
+  "lat": 22.550442,
+  "lng": 88.355635,
+  "coord_source": "confirmed against the street address",
+  "category": "Rajbari, Mansion & House",
+  "address": "85, Park St, Mullick Bazar, Taltala",
+  "description": "The Park Street town house of the Nawabs of Murshidabad — the family the Company displaced at Plassey, keeping a residence in the city that replaced their capital."
+ },
+ {
+  "id": "gmap-the-metropolitan-nursing-home",
+  "name": "The Metropolitan Nursing Home",
+  "lat": 22.545084,
+  "lng": 88.351834,
+  "coord_source": "confirmed against the street address",
+  "category": "Hospital & Medical",
+  "address": "18, Shakespeare Sarani",
+  "description": "The Metropolitan Laboratory and Nursing Home on Theatre Road, now Shakespeare Sarani — one of the private medical establishments that grew up around the European quarter."
+ },
+ {
+  "id": "gmap-duff-college-jorabagan-police-station",
+  "name": "Duff College (Jorabagan Police Station)",
+  "lat": 22.586892,
+  "lng": 88.358359,
+  "coord_source": "confirmed against the street address",
+  "category": "School, College & University",
+  "address": "228, Rabindra Sarani, Jorabagan",
+  "description": "Alexander Duff's Free Church Institution opened here on 4 March 1844, teaching in English to Bengali students and feeding the founding of the University of Calcutta. The building is now Jorabagan police station.",
+  "year": 1844,
+  "built": "1844 (as the Free Church Institution)"
+ },
+ {
+  "id": "gmap-baneshwar-shiva-temple",
+  "name": "Baneshwar Shiva Temple",
+  "lat": 22.599798,
+  "lng": 88.361781,
+  "coord_source": "confirmed against the street address",
+  "category": "Temple & Thakurbari",
+  "address": "2/4A, Banamali Sarkar St, Sovabazar",
+  "description": "A Shiva temple on Banamali Sarkar Street whose date nobody has been able to fix; the family house beside it went up between 1740 and 1750, so the temple is probably of the same generation."
+ },
+ {
+  "id": "gmap-niyamatullah-ghat-masjid",
+  "name": "Niyamatullah Ghat Masjid",
+  "lat": 22.593144,
+  "lng": 88.35389,
+  "coord_source": "confirmed against the street address",
+  "category": "Mosque & Imambara",
+  "address": "86, Nimtala Ghat St, Jorabagan",
+  "description": "A mosque on Nimtala Ghat Street, in the stretch of north Calcutta where the burning ghat, the Ahiritola boat crossing and the potters' quarter run into each other."
+ },
+ {
+  "id": "gmap-zohra-begum-masjid",
+  "name": "Zohra Begum Masjid",
+  "lat": 22.503771,
+  "lng": 88.339125,
+  "coord_source": "confirmed against the street address",
+  "category": "Mosque & Imambara",
+  "address": "Zohora Begum Jame Masjid, Tollygunge",
+  "description": "A mosque in Tollygunge, in the quarter settled by the family and retainers of Tipu Sultan after their exile to Bengal."
+ },
+ {
+  "id": "gmap-ezra-mansion",
+  "name": "Ezra Mansion",
+  "lat": 22.565636,
+  "lng": 88.350996,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "Ezra Mansion, Waterloo Street",
+  "description": "One of the commercial blocks put up by the Ezras, the Baghdadi Jewish family whose name is on a street, a hospital and a good deal of central Calcutta's property."
+ },
+ {
+  "id": "gmap-neveh-shalome-synagogue",
+  "name": "Neveh Shalome Synagogue",
+  "lat": 22.5779,
+  "lng": 88.35204,
+  "coord_source": "confirmed against the street address",
+  "category": "Other Faiths",
+  "address": "Neveh Shalome Synagogue, Brabourne Road",
+  "description": "The oldest synagogue foundation in Calcutta, on Brabourne Road, standing a few minutes' walk from both Beth El and the Maghen David — three synagogues for a community that has now almost entirely left."
+ },
+ {
+  "id": "gmap-basu-bati",
+  "name": "Basu Bati",
+  "lat": 22.6042,
+  "lng": 88.370713,
+  "coord_source": "confirmed against the street address",
+  "category": "Rajbari, Mansion & House",
+  "address": "Basu Bati, Bagbazar",
+  "description": "The Bagbazar house of the Basu brothers, still unfinished when Mahendra Nath Basu died in August 1874. It became a meeting place of the swadeshi years, and its terracotta front is among the finest in north Calcutta.",
+  "year": 1874,
+  "built": "c. 1874"
+ },
+ {
+  "id": "gmap-radhanath-temple-bawali-mondal",
+  "name": "Radhanath Temple (Bawali Mondal)",
+  "lat": 22.506212,
+  "lng": 88.339802,
+  "coord_source": "confirmed against the street address",
+  "category": "Temple & Thakurbari",
+  "address": "Radhakanta temple of Ramnath Mondal, Chetla",
+  "description": "Begun in 1796 and finished in 1807 by the Mondal family of Bawali, on the lane in Chetla that still carries their name.",
+  "year": 1807,
+  "built": "1796–1807"
+ },
+ {
+  "id": "gmap-goenka-ghat",
+  "name": "Goenka Ghat",
+  "lat": 22.58373,
+  "lng": 88.348851,
+  "coord_source": "confirmed against the street address",
+  "category": "Ghat & Riverfront",
+  "address": "Ramchandra Goenka Zenana Bathing Ghat",
+  "description": "The Ramchandra Goenka zenana bathing ghat, erected in 1916 — a screened ghat for women, next to the chhatri and well the Goenka family had built on the same stretch of the Strand in 1888.",
+  "year": 1916,
+  "built": "1916"
+ },
+ {
+  "id": "gmap-royal-exchange",
+  "name": "Royal Exchange",
+  "lat": 22.575575,
+  "lng": 88.349114,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "The Bengal Chamber of Commerce and Industry, Royal Exchange",
+  "description": "Completed and opened in 1918 by Lord Ronaldshay at a cost of five lakh rupees, and still lettered ROYAL EXCHANGE across its front although the street outside was renamed India Exchange Place. It houses the Bengal Chamber of Commerce.",
+  "year": 1918,
+  "built": "1918"
+ },
+ {
+  "id": "gmap-mcleod-house",
+  "name": "McLeod House",
+  "lat": 22.571691,
+  "lng": 88.347453,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "McLeod House, Netaji Subhas Road",
+  "description": "The Calcutta house of McLeod & Co., founded in 1887 and one of the largest of the Scottish managing agencies, running collieries, jute mills and the light railways of Bengal."
+ },
+ {
+  "id": "gmap-turner-morrison-co",
+  "name": "Turner Morrison & Co.",
+  "lat": 22.5748,
+  "lng": 88.34884,
+  "coord_source": "located to the street, not the building footprint",
+  "category": "Commerce, Market & Hotel",
+  "address": "Lyons Range",
+  "description": "The Lyons Range offices of Turner Morrison, established in Calcutta in 1864 and within thirteen years the third largest shipping agency in the port."
+ },
+ {
+  "id": "gmap-new-central-telegraph-office",
+  "name": "New Central Telegraph Office",
+  "lat": 22.569076,
+  "lng": 88.347837,
+  "coord_source": "located to the street, not the building footprint",
+  "category": "Government, Court & Fort",
+  "address": "Red Cross Place",
+  "description": "The Central Telegraph Office off Dalhousie Square. The older building behind it was designed in 1868 and finished in 1876, when a telegram from here reached London in minutes and a letter took six weeks."
+ },
+ {
+  "id": "gmap-court-of-small-causes",
+  "name": "Court of Small Causes",
+  "lat": 22.569875,
+  "lng": 88.344137,
+  "coord_source": "confirmed against the street address",
+  "category": "Government, Court & Fort",
+  "address": "Small Causes Court, Bankshall Street",
+  "description": "The Calcutta Court of Small Causes on Bankshall Street, descended from the small cause courts chartered for the three presidency towns by George II in 1753 to settle petty civil suits quickly and cheaply."
+ },
+ {
+  "id": "gmap-baro-ras-bari-chetla",
+  "name": "Baro Ras Bari, Chetla",
+  "lat": 22.505487,
+  "lng": 88.342964,
+  "coord_source": "confirmed against the street address",
+  "category": "Temple & Thakurbari",
+  "address": "78, Tollygunge Rd, Bara Rashbari",
+  "description": "The larger of the two Ras Baris on Tollygunge Road, built around 1828 with the rows of aat-chala Shiva temples that flank the courtyard.",
+  "year": 1828,
+  "built": "c. 1828"
+ },
+ {
+  "id": "gmap-chhoto-ras-bari-chetla",
+  "name": "Chhoto Ras Bari, Chetla",
+  "lat": 22.509304,
+  "lng": 88.341806,
+  "coord_source": "confirmed against the street address",
+  "category": "Temple & Thakurbari",
+  "address": "93, Tollygunge Rd, Tollygunge",
+  "description": "The smaller Ras Bari, begun in March 1846 and finished on the last day of Chaitra 1253 — 2 April 1847 — a date its own inscription records in the Bengali calendar.",
+  "year": 1847,
+  "built": "1846–47"
+ },
+ {
+  "id": "gmap-bengali-war-memorial",
+  "name": "Bengali War Memorial",
+  "lat": 22.574523,
+  "lng": 88.364491,
+  "coord_source": "confirmed against the street address",
+  "category": "Memorial, Statue & Gate",
+  "address": "College Square Bengali War Memorial",
+  "description": "The memorial in College Square to the Bengali soldiers of the First World War — raised against the standing claim that Bengalis would not fight."
+ },
+ {
+  "id": "gmap-treasury-building",
+  "name": "Treasury Building",
+  "lat": 22.571464,
+  "lng": 88.34542,
+  "coord_source": "confirmed against the street address",
+  "category": "Government, Court & Fort",
+  "address": "2, Government Pl W, B.B.D. Bagh",
+  "description": "Built between 1882 and 1884 on Government Place West, opposite the Town Hall, to hold the government's cash and its accounts.",
+  "year": 1882,
+  "built": "1882–84"
+ },
+ {
+  "id": "gmap-old-telegraph-office-dead-letter-office",
+  "name": "Old Telegraph Office (Dead Letter Office)",
+  "lat": 22.570234,
+  "lng": 88.349317,
+  "coord_source": "confirmed against the street address",
+  "category": "Government, Court & Fort",
+  "address": "Dead Letter Building, 33 B.B.D. Bag South",
+  "description": "Built between 1873 and 1876 with a bell tower over eighty feet high, and later given over to the Dead Letter Office — the department that opened undeliverable post to find out where it should have gone.",
+  "year": 1873,
+  "built": "1873–76"
+ },
+ {
+  "id": "gmap-martin-co",
+  "name": "Martin & Co.",
+  "lat": 22.570381,
+  "lng": 88.350551,
+  "coord_source": "located to the street, not the building footprint",
+  "category": "Commerce, Market & Hotel",
+  "address": "Mission Row",
+  "description": "The Mission Row offices of Martin & Co., the firm of Sir Rajendra Nath Mookerjee, which finished the Victoria Memorial, built the Belur Math and the Ochterlony Monument, and laid much of the city's steel and concrete."
+ },
+ {
+  "id": "gmap-standard-life-assurance-building",
+  "name": "Standard Life Assurance Building",
+  "lat": 22.570755,
+  "lng": 88.348329,
+  "coord_source": "confirmed against the street address",
+  "category": "Commerce, Market & Hotel",
+  "address": "Standard Life Assurance Building, B.B.D. Bagh",
+  "description": "Built in 1896 to the designs of Frederick William Stevens, the architect of Bombay's Victoria Terminus, for the Standard Life Assurance Company of Edinburgh.",
+  "year": 1896,
+  "built": "1896"
  }
 ]

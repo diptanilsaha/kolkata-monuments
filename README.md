@@ -1,6 +1,6 @@
 # The Many Calcuttas — a city in layers
 
-An interactive map of the heritage of Kolkata and its suburbs: 335 sites, each
+An interactive map of the heritage of Kolkata and its suburbs: 362 sites, each
 plotted where it stands and coloured by the era that built it.
 
 ![The map](preview.jpg)
@@ -28,11 +28,11 @@ host. If you do, set `og:image` in `index.html` to the absolute URL of
 
 | | |
 |---|---|
-| Sites | 335 |
-| With a construction date | 188 |
-| With a photograph | 281 |
-| With a street address | 257 |
-| With a further-reading link | 39 |
+| Sites | 362 |
+| With a construction date | 196 |
+| With a photograph | 278 |
+| With a street address | 285 |
+| With a further-reading link | 69 |
 | Coverage | ~25 km from Lal Dighi, plus Achipur at 27 km |
 
 Two ways to slice it, switched in the sidebar:
@@ -46,23 +46,6 @@ Two ways to slice it, switched in the sidebar:
 The pin's colour follows whichever grouping is active; the glyph inside it
 always says what the building is.
 
-## Where the data comes from
-
-| Source | What it gives |
-|---|---|
-| [KMC graded list of heritage buildings](https://wbhc.in/files/contents/graded_list_of_heritage_buildings_grade_i_iia_iib_final.pdf) (42-page PDF) | The statutory register — 762 entries, giving the scope of what counts as heritage here and a classification of each building |
-| [Wikidata](https://query.wikidata.org/) | Coordinates, construction dates, architects, architectural styles, images |
-| [English Wikipedia](https://en.wikipedia.org/w/api.php) | The descriptions and lead photographs |
-| Archaeological Survey of India / West Bengal Heritage Commission / Indian Railways heritage inventory | Reached through their Wikidata heritage designations |
-| [double-dolphin.blogspot.com](https://double-dolphin.blogspot.com/) | Deepanjan Ghosh's [heritage index](https://double-dolphin.blogspot.com/p/blog-page_27.html), linked as further reading from 39 sites |
-| OpenStreetMap | Coordinates for sixteen sites that Wikidata does not carry — the Tiretta Bazar Chinese temples among them |
-
-A site is on the map if it carries a formal heritage designation *and* has a
-published coordinate, or if it is a well-known Kolkata landmark that the
-statutory lists happen to miss (Fort William, Belur Math, the Botanic Garden,
-the old cinema halls). Those additions are listed by name in
-`scripts/curated_landmarks.txt` so you can see exactly what was added by hand.
-
 ### On further reading
 
 39 sites link to a post on Deepanjan Ghosh's blog, which is the best sustained
@@ -75,23 +58,9 @@ Street*, and on the Small Causes Court on *Bankshall Street*, none of which are
 the monuments whose names they resemble. `blog_index.py` re-fetches the feed and
 prints candidates for review; it never adds them itself.
 
-### What is on his list but not on this map
-
-Of the 79 buildings on that index, 30 are on this map — eleven of them added
-because of it. The other 49 are mostly the mercantile palaces of Dalhousie Square —
-Royal Exchange, Martin & Co., Ralli Brothers, Turner Morrison, the Chartered
-Bank, McLeod House, Temple Chambers, Ezra Mansion and the rest. **None of them
-has a published coordinate.** They are absent from OpenStreetMap, and where
-Wikidata has an item at all (the Chartered Bank Building, for one) it carries no
-location. They sit within a few hundred metres of each other on Clive Street,
-Royal Exchange Place and Council House Street, so a street-level guess would put
-several buildings on the same point and none of them on the right one. Plotting
-them properly needs somebody to fix their positions on the ground or in
-OpenStreetMap; guessing was the worse option.
-
 ### On dates
 
-188 of 335 sites carry a year. The rest sit in **Date Undetermined**, and that
+196 of 362 sites carry a year. The rest sit in **Date Undetermined**, and that
 is deliberate: the KMC register does not record construction dates, and for most
 of the smaller listed houses no published source gives one. Rather than guess,
 they are shown as undated. Every date that *is* shown came from a Wikidata

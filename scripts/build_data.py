@@ -85,6 +85,10 @@ EXCLUDE_QIDS = {
                    # better absent than plotted 1.5 km from where it stands.
 }
 
+# Institutions and temples founded after Independence are not monuments of the
+# colonial city this map is about; their buildings are usually modern too.
+POST_1947_DROP_CATEGORIES = {"School, College & University", "Temple & Thakurbari"}
+
 # Pairs of records that denote the same building or the same institution at the
 # same address. The absorbed record's name is kept on the survivor.
 # Not merged: separate structures that merely share a name or a compound —
@@ -441,6 +445,12 @@ def main():
             "further_reading": blog_links.get(item["qid"]),
             "date_source": year_source,
         })
+
+    dropped = [m for m in monuments
+               if m["category"] in POST_1947_DROP_CATEGORIES and (m["year"] or 0) > 1947]
+    if dropped:
+        print("  dropped as post-1947:", ", ".join(f"{m['name']} ({m['year']})" for m in dropped))
+    monuments = [m for m in monuments if m not in dropped]
 
     monuments.sort(key=lambda m: (m["year"] is None, m["year"] or 0, m["name"]))
     (ROOT / "monuments.json").write_text(json.dumps(monuments, indent=1, ensure_ascii=False) + "\n")

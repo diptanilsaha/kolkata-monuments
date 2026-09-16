@@ -618,6 +618,32 @@
   "date_source": "wikipedia"
  },
  {
+  "id": "gmap-radhanath-temple-bawali-mondal",
+  "name": "Radhanath Temple (Bawali Mondal)",
+  "lat": 22.506212,
+  "lng": 88.339802,
+  "era": "Company Raj",
+  "year": 1807,
+  "built": "1796–1807",
+  "category": "Temple & Thakurbari",
+  "description": "Begun in 1796 and finished in 1807 by the Mondal family of Bawali, on the lane in Chetla that still carries their name.",
+  "styles": [],
+  "architects": [],
+  "address": "Radhakanta temple of Ramnath Mondal, Chetla",
+  "km_from_centre": 7.8,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Radhanath Temple (Bawali Mondal)",
+   "url": "https://double-dolphin.blogspot.com/2014/11/radhanath-temple-mondal-temple-lane.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
   "id": "Q48774272",
   "name": "Church of our Lady of Dolours",
   "lat": 22.56687,
@@ -1008,6 +1034,32 @@
   "wikidata": "https://www.wikidata.org/wiki/Q7419011",
   "further_reading": null,
   "date_source": "wikidata"
+ },
+ {
+  "id": "gmap-baro-ras-bari-chetla",
+  "name": "Baro Ras Bari, Chetla",
+  "lat": 22.505487,
+  "lng": 88.342964,
+  "era": "Company Raj",
+  "year": 1828,
+  "built": "c. 1828",
+  "category": "Temple & Thakurbari",
+  "description": "The larger of the two Ras Baris on Tollygunge Road, built around 1828 with the rows of aat-chala Shiva temples that flank the courtyard.",
+  "styles": [],
+  "architects": [],
+  "address": "78, Tollygunge Rd, Bara Rashbari",
+  "km_from_centre": 7.8,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Baro Ras Bari, Chetla",
+   "url": "https://double-dolphin.blogspot.com/2015/04/chetla-baro-ras-bari-78-tollygunge-road.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
  },
  {
   "id": "Q7461557",
@@ -1516,6 +1568,32 @@
   "date_source": "wikidata"
  },
  {
+  "id": "gmap-duff-college-jorabagan-police-station",
+  "name": "Duff College (Jorabagan Police Station)",
+  "lat": 22.586892,
+  "lng": 88.358359,
+  "era": "Company Raj",
+  "year": 1844,
+  "built": "1844 (as the Free Church Institution)",
+  "category": "School, College & University",
+  "description": "Alexander Duff's Free Church Institution opened here on 4 March 1844, teaching in English to Bengali students and feeding the founding of the University of Calcutta. The building is now Jorabagan police station.",
+  "styles": [],
+  "architects": [],
+  "address": "228, Rabindra Sarani, Jorabagan",
+  "km_from_centre": 1.7,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Duff College (Jorabagan Police Station)",
+   "url": "https://double-dolphin.blogspot.com/2016/01/duff-college-jorabagan-thana-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
   "id": "Q48727756",
   "name": "Howrah Zilla School",
   "lat": 22.57452,
@@ -1536,6 +1614,32 @@
   "wikidata": "https://www.wikidata.org/wiki/Q48727756",
   "further_reading": null,
   "date_source": "wikidata"
+ },
+ {
+  "id": "gmap-chhoto-ras-bari-chetla",
+  "name": "Chhoto Ras Bari, Chetla",
+  "lat": 22.509304,
+  "lng": 88.341806,
+  "era": "Company Raj",
+  "year": 1847,
+  "built": "1846–47",
+  "category": "Temple & Thakurbari",
+  "description": "The smaller Ras Bari, begun in March 1846 and finished on the last day of Chaitra 1253 — 2 April 1847 — a date its own inscription records in the Bengali calendar.",
+  "styles": [],
+  "architects": [],
+  "address": "93, Tollygunge Rd, Tollygunge",
+  "km_from_centre": 7.4,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Chhoto Ras Bari, Chetla",
+   "url": "https://double-dolphin.blogspot.com/2015/01/chetla-chhoto-rashbari-93-tollygunge.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
  },
  {
   "id": "Q1157765",
@@ -2284,6 +2388,58 @@
   "date_source": "wikidata"
  },
  {
+  "id": "gmap-old-telegraph-office-dead-letter-office",
+  "name": "Old Telegraph Office (Dead Letter Office)",
+  "lat": 22.570234,
+  "lng": 88.349317,
+  "era": "Imperial Capital",
+  "year": 1873,
+  "built": "1873–76",
+  "category": "Government, Court & Fort",
+  "description": "Built between 1873 and 1876 with a bell tower over eighty feet high, and later given over to the Dead Letter Office — the department that opened undeliverable post to find out where it should have gone.",
+  "styles": [],
+  "architects": [],
+  "address": "Dead Letter Building, 33 B.B.D. Bag South",
+  "km_from_centre": 1.5,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Old Telegraph Office (Dead Letter Office)",
+   "url": "https://double-dolphin.blogspot.com/2014/03/the-old-telegraph-office-dalhousie.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
+  "id": "gmap-basu-bati",
+  "name": "Basu Bati",
+  "lat": 22.6042,
+  "lng": 88.370713,
+  "era": "Imperial Capital",
+  "year": 1874,
+  "built": "c. 1874",
+  "category": "Rajbari, Mansion & House",
+  "description": "The Bagbazar house of the Basu brothers, still unfinished when Mahendra Nath Basu died in August 1874. It became a meeting place of the swadeshi years, and its terracotta front is among the finest in north Calcutta.",
+  "styles": [],
+  "architects": [],
+  "address": "Basu Bati, Bagbazar",
+  "km_from_centre": 3.6,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Basu Bati",
+   "url": "https://double-dolphin.blogspot.com/2017/07/basu-bati-bagbazar-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
   "id": "Q7010004",
   "name": "New Market",
   "lat": 22.5607,
@@ -2460,6 +2616,32 @@
   "wikidata": "https://www.wikidata.org/wiki/Q39046585",
   "further_reading": null,
   "date_source": "wikidata"
+ },
+ {
+  "id": "gmap-treasury-building",
+  "name": "Treasury Building",
+  "lat": 22.571464,
+  "lng": 88.34542,
+  "era": "Imperial Capital",
+  "year": 1882,
+  "built": "1882–84",
+  "category": "Government, Court & Fort",
+  "description": "Built between 1882 and 1884 on Government Place West, opposite the Town Hall, to hold the government's cash and its accounts.",
+  "styles": [],
+  "architects": [],
+  "address": "2, Government Pl W, B.B.D. Bagh",
+  "km_from_centre": 1.9,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Treasury Building",
+   "url": "https://double-dolphin.blogspot.com/2014/05/spences-hotel-and-treasury-building.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
  },
  {
   "id": "Q7600935",
@@ -2712,6 +2894,32 @@
   "wikidata": "https://www.wikidata.org/wiki/Q3349499",
   "further_reading": null,
   "date_source": "wikidata"
+ },
+ {
+  "id": "gmap-standard-life-assurance-building",
+  "name": "Standard Life Assurance Building",
+  "lat": 22.570755,
+  "lng": 88.348329,
+  "era": "Imperial Capital",
+  "year": 1896,
+  "built": "1896",
+  "category": "Commerce, Market & Hotel",
+  "description": "Built in 1896 to the designs of Frederick William Stevens, the architect of Bombay's Victoria Terminus, for the Standard Life Assurance Company of Edinburgh.",
+  "styles": [],
+  "architects": [],
+  "address": "Standard Life Assurance Building, B.B.D. Bagh",
+  "km_from_centre": 1.6,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Standard Life Assurance Building",
+   "url": "https://double-dolphin.blogspot.com/2014/03/the-standard-life-assurance-building.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
  },
  {
   "id": "Q7289695",
@@ -3137,6 +3345,32 @@
   "date_source": "wikidata"
  },
  {
+  "id": "gmap-temple-chambers",
+  "name": "Temple Chambers",
+  "lat": 22.568359,
+  "lng": 88.344336,
+  "era": "Imperial Capital",
+  "year": 1910,
+  "built": "1910",
+  "category": "Commerce, Market & Hotel",
+  "description": "Vincent Esch's office block on the corner of Esplanade Row West and Old Post Office Street, built in 1910 and let out as chambers to the solicitors and agents who worked the courts opposite.",
+  "styles": [],
+  "architects": [],
+  "address": "6, Old Post Office St, B.B.D. Bagh",
+  "km_from_centre": 2.1,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Temple Chambers",
+   "url": "https://double-dolphin.blogspot.com/2015/09/temple-chambers-old-post-office-street-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
   "id": "Q5018955",
   "name": "Calcutta School of Tropical Medicine",
   "lat": 22.575243,
@@ -3269,6 +3503,32 @@
   "date_source": "wikidata"
  },
  {
+  "id": "gmap-goenka-ghat",
+  "name": "Goenka Ghat",
+  "lat": 22.58373,
+  "lng": 88.348851,
+  "era": "Late Raj & Art Deco",
+  "year": 1916,
+  "built": "1916",
+  "category": "Ghat & Riverfront",
+  "description": "The Ramchandra Goenka zenana bathing ghat, erected in 1916 — a screened ghat for women, next to the chhatri and well the Goenka family had built on the same stretch of the Strand in 1888.",
+  "styles": [],
+  "architects": [],
+  "address": "Ramchandra Goenka Zenana Bathing Ghat",
+  "km_from_centre": 2.0,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Goenka Ghat",
+   "url": "https://double-dolphin.blogspot.com/2014/08/goenka-ghat-and-its-environs.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
   "id": "Q104869353",
   "name": "J. B. Roy State Ayurvedic Medical College and Hospital",
   "lat": 22.598324,
@@ -3313,6 +3573,32 @@
   "date_source": "wikidata"
  },
  {
+  "id": "gmap-royal-exchange",
+  "name": "Royal Exchange",
+  "lat": 22.575575,
+  "lng": 88.349114,
+  "era": "Late Raj & Art Deco",
+  "year": 1918,
+  "built": "1918",
+  "category": "Commerce, Market & Hotel",
+  "description": "Completed and opened in 1918 by Lord Ronaldshay at a cost of five lakh rupees, and still lettered ROYAL EXCHANGE across its front although the street outside was renamed India Exchange Place. It houses the Bengal Chamber of Commerce.",
+  "styles": [],
+  "architects": [],
+  "address": "The Bengal Chamber of Commerce and Industry, Royal Exchange",
+  "km_from_centre": 1.6,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Royal Exchange",
+   "url": "https://double-dolphin.blogspot.com/2015/08/royal-exchange-clive-street-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
+ },
+ {
   "id": "Q1356352",
   "name": "Victoria Memorial",
   "lat": 22.5449,
@@ -3341,6 +3627,32 @@
    "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
   },
   "date_source": "wikidata"
+ },
+ {
+  "id": "gmap-dumraon-house",
+  "name": "Dumraon House",
+  "lat": 22.549104,
+  "lng": 88.354182,
+  "era": "Late Raj & Art Deco",
+  "year": 1922,
+  "built": "1922",
+  "category": "Rajbari, Mansion & House",
+  "description": "Built in 1922 as the Calcutta residence of the Maharaja of Dumraon, one of the Bihar houses that kept a town address here for the season.",
+  "styles": [],
+  "architects": [],
+  "address": "26, Camac St, Park Street area",
+  "km_from_centre": 2.8,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Dumraon House",
+   "url": "https://double-dolphin.blogspot.com/2014/05/dumraon-house-26-camac-street.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": "curated"
  },
  {
   "id": "Q15241748",
@@ -4025,28 +4337,6 @@
   "date_source": "wikidata"
  },
  {
-  "id": "Q3350524",
-  "name": "Rabindra Bharati University",
-  "lat": 22.584444,
-  "lng": 88.359444,
-  "era": "Independent India",
-  "year": 1962,
-  "built": "1962",
-  "category": "School, College & University",
-  "description": "Rabindra Bharati University is a public research university in Kolkata, India. It was founded on 8 May 1962, under the Rabindra Bharati Act of the Government of West Bengal in 1961, to mark the birth centenary of the poet Rabindranath Tagore. It is located at the Tagore family home, Jorasanko Thakur Bari. The university offers undergraduate and postgraduate programmes in Performing Arts and Visual Arts under the Faculty of Fine Arts, Humanities, Social Sciences and other subjects under the Faculty of Arts.",
-  "styles": [],
-  "architects": [],
-  "address": null,
-  "km_from_centre": 1.4,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorasanko%20Thakur%20Bari.jpg?width=900",
-  "coord_source": null,
-  "also_known_as": null,
-  "wikipedia": "https://en.wikipedia.org/wiki/Rabindra_Bharati_University",
-  "wikidata": "https://www.wikidata.org/wiki/Q3350524",
-  "further_reading": null,
-  "date_source": "wikidata"
- },
- {
   "id": "Q7603021",
   "name": "State Archaeological Museum",
   "lat": 22.499389,
@@ -4113,50 +4403,6 @@
   "date_source": "wikidata"
  },
  {
-  "id": "Q4673528",
-  "name": "Acharya Jagadish Chandra Bose College",
-  "lat": 22.541872,
-  "lng": 88.349658,
-  "era": "Independent India",
-  "year": 1968,
-  "built": "1968",
-  "category": "School, College & University",
-  "description": "Listed on the Kolkata Municipal Corporation's graded list under School / College (incl. Hostel).",
-  "styles": [],
-  "architects": [],
-  "address": "Acharya Jagadish Chandra Bose road",
-  "km_from_centre": 3.7,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Acharya%20Jagadish%20Chandra%20Bose%20College%20-%20Kolkata%202011-10-16%20160491.JPG?width=900",
-  "coord_source": null,
-  "also_known_as": null,
-  "wikipedia": null,
-  "wikidata": "https://www.wikidata.org/wiki/Q4673528",
-  "further_reading": null,
-  "date_source": "wikidata"
- },
- {
-  "id": "Q3585996",
-  "name": "Church of the Lord Jesus",
-  "lat": 22.558511,
-  "lng": 88.357743,
-  "era": "Independent India",
-  "year": 1969,
-  "built": "1969",
-  "category": "Church & Chapel",
-  "description": "The Lord Jesus Church (Bengali: Prabhu Jisur Girja) is a Catholic church located at Taltala, a locality at the centre of the city of Kolkata (Calcutta) in India. Formerly a Church of Scotland Presbyterian place of worship it was handed over to the Jesuits in 1969, who made of it a centre of various apostolic activities.",
-  "styles": [],
-  "architects": [],
-  "address": "Rafi Ahmed Kidwai road",
-  "km_from_centre": 1.7,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%2C_Prabhu_Jisur_Girja.JPG?width=900",
-  "coord_source": null,
-  "also_known_as": null,
-  "wikipedia": "https://en.wikipedia.org/wiki/Church_of_the_Lord_Jesus,_Kolkata",
-  "wikidata": "https://www.wikidata.org/wiki/Q3585996",
-  "further_reading": null,
-  "date_source": "wikipedia"
- },
- {
   "id": "Q5416955",
   "name": "Everest House",
   "lat": 22.546578,
@@ -4177,28 +4423,6 @@
   "wikidata": "https://www.wikidata.org/wiki/Q5416955",
   "further_reading": null,
   "date_source": "wikipedia"
- },
- {
-  "id": "Q4916530",
-  "name": "Birla Mandir",
-  "lat": 22.530556,
-  "lng": 88.365,
-  "era": "Independent India",
-  "year": 1996,
-  "built": "1970–96",
-  "category": "Temple & Thakurbari",
-  "description": "Birla Mandir in Ward Number 69, Kolkata, India, is a Hindu temple on Asutosh Chowdhury Avenue, Ballygunge, built by the industrialist Birla family. It is dedicated to Vishnu avatars such as Rama and Krishna. This temple is open in the morning from 5.30 A.M. to 11 A.M. and in the evening from 4 .30 P.M. to 9 P.M. On Janmashtami, the birthday of Krishna, devotees come from far away places to pay their respect to the deities.",
-  "styles": [],
-  "architects": [],
-  "address": "Ashutosh Chowdhury Avenue",
-  "km_from_centre": 4.7,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Birla_Mandir_astounding_Beauty.jpg?width=900",
-  "coord_source": null,
-  "also_known_as": null,
-  "wikipedia": "https://en.wikipedia.org/wiki/Birla_Mandir,_Kolkata",
-  "wikidata": "https://www.wikidata.org/wiki/Q4916530",
-  "further_reading": null,
-  "date_source": "curated"
  },
  {
   "id": "Q56682413",
@@ -4865,6 +5089,32 @@
   "date_source": null
  },
  {
+  "id": "gmap-baneshwar-shiva-temple",
+  "name": "Baneshwar Shiva Temple",
+  "lat": 22.599798,
+  "lng": 88.361781,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Temple & Thakurbari",
+  "description": "A Shiva temple on Banamali Sarkar Street whose date nobody has been able to fix; the family house beside it went up between 1740 and 1750, so the temple is probably of the same generation.",
+  "styles": [],
+  "architects": [],
+  "address": "2/4A, Banamali Sarkar St, Sovabazar",
+  "km_from_centre": 3.0,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Baneshwar Shiva Temple",
+   "url": "https://double-dolphin.blogspot.com/2016/02/baneshwar-shiva-temple-bonomali-sarkar-street-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "Q67642423",
   "name": "Barrackpore bridge",
   "lat": 22.605409,
@@ -4928,6 +5178,32 @@
   "wikipedia": null,
   "wikidata": "https://www.wikidata.org/wiki/Q67645656",
   "further_reading": null,
+  "date_source": null
+ },
+ {
+  "id": "gmap-bengali-war-memorial",
+  "name": "Bengali War Memorial",
+  "lat": 22.574523,
+  "lng": 88.364491,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Memorial, Statue & Gate",
+  "description": "The memorial in College Square to the Bengali soldiers of the First World War — raised against the standing claim that Bengalis would not fight.",
+  "styles": [],
+  "architects": [],
+  "address": "College Square Bengali War Memorial",
+  "km_from_centre": 0.2,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Bengali War Memorial",
+   "url": "https://double-dolphin.blogspot.com/2015/09/bengali-war-memorial-college-square-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
   "date_source": null
  },
  {
@@ -5243,6 +5519,28 @@
   "date_source": null
  },
  {
+  "id": "Q3585996",
+  "name": "Church of the Lord Jesus",
+  "lat": 22.558511,
+  "lng": 88.357743,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Church & Chapel",
+  "description": "The Lord Jesus Church, Prabhu Jisur Girja, at Taltala. Built as a Church of Scotland Presbyterian church, it was handed over to the Jesuits in 1969, who made it a centre for their apostolic work — 1969 is the date of that handover, not of the building, whose own date is not on record.",
+  "styles": [],
+  "architects": [],
+  "address": "Rafi Ahmed Kidwai road",
+  "km_from_centre": 1.7,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calcutta%2C_Prabhu_Jisur_Girja.JPG?width=900",
+  "coord_source": null,
+  "also_known_as": null,
+  "wikipedia": "https://en.wikipedia.org/wiki/Church_of_the_Lord_Jesus,_Kolkata",
+  "wikidata": "https://www.wikidata.org/wiki/Q3585996",
+  "further_reading": null,
+  "date_source": "curated"
+ },
+ {
   "id": "Q68472164",
   "name": "Church of the Sacred Heart of Jesus",
   "lat": 22.564833,
@@ -5416,6 +5714,32 @@
   "wikipedia": null,
   "wikidata": "https://www.wikidata.org/wiki/Q16345231",
   "further_reading": null,
+  "date_source": null
+ },
+ {
+  "id": "gmap-court-of-small-causes",
+  "name": "Court of Small Causes",
+  "lat": 22.569875,
+  "lng": 88.344137,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Government, Court & Fort",
+  "description": "The Calcutta Court of Small Causes on Bankshall Street, descended from the small cause courts chartered for the three presidency towns by George II in 1753 to settle petty civil suits quickly and cheaply.",
+  "styles": [],
+  "architects": [],
+  "address": "Small Causes Court, Bankshall Street",
+  "km_from_centre": 2.0,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Court of Small Causes",
+   "url": "https://double-dolphin.blogspot.com/2014/06/the-small-causes-court-bankshall-street.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
   "date_source": null
  },
  {
@@ -5597,6 +5921,32 @@
   "date_source": null
  },
  {
+  "id": "gmap-ezra-mansion",
+  "name": "Ezra Mansion",
+  "lat": 22.565636,
+  "lng": 88.350996,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "One of the commercial blocks put up by the Ezras, the Baghdadi Jewish family whose name is on a street, a hospital and a good deal of central Calcutta's property.",
+  "styles": [],
+  "architects": [],
+  "address": "Ezra Mansion, Waterloo Street",
+  "km_from_centre": 1.5,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Ezra Mansion",
+   "url": "https://double-dolphin.blogspot.com/2014/05/ezra-mansion-10-govt-place-east.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "Q69495555",
   "name": "Garia Burning Ghat",
   "lat": 22.46133,
@@ -5729,6 +6079,32 @@
   "date_source": null
  },
  {
+  "id": "gmap-graham-building",
+  "name": "Graham Building",
+  "lat": 22.577207,
+  "lng": 88.349251,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "One of the mercantile blocks on Clive Street, built for Graham & Co., among the Scottish managing agencies that ran the jute and tea trades from this quarter mile.",
+  "styles": [],
+  "architects": [],
+  "address": "14, Netaji Subhas Rd, Murgighata, B.B.D. Bagh",
+  "km_from_centre": 1.6,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Graham Building",
+   "url": "https://double-dolphin.blogspot.com/2016/02/graham-building-clive-street-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "Q67636967",
   "name": "Gun & Shell factory clock tower",
   "lat": 22.619472,
@@ -5842,6 +6218,32 @@
   "further_reading": {
    "title": "Hong Kong House",
    "url": "https://double-dolphin.blogspot.com/2014/09/hong-kong-house-dalhousie-square-south.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
+  "id": "gmap-house-of-arathoon-stephen",
+  "name": "House of Arathoon Stephen",
+  "lat": 22.54967,
+  "lng": 88.353527,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Rajbari, Mansion & House",
+  "description": "The Camac Street house of Arathoon Stephen, the Armenian who arrived in Calcutta with nothing, made a fortune in property and built the Grand Hotel on Chowringhee.",
+  "styles": [],
+  "architects": [],
+  "address": "2, Camac St, Park Street area",
+  "km_from_centre": 2.8,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "House of Arathoon Stephen",
+   "url": "https://double-dolphin.blogspot.com/2014/05/2-camac-street.html",
    "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
   },
   "date_source": null
@@ -6445,6 +6847,32 @@
   "date_source": null
  },
  {
+  "id": "gmap-mackinnon-mackenzie-co",
+  "name": "Mackinnon Mackenzie & Co.",
+  "lat": 22.575781,
+  "lng": 88.347492,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "The Strand Road offices of Mackinnon Mackenzie, founded in Cossipore in 1847 by two Campbeltown Scots and agents for the British India Steam Navigation Company, which at its height ran more ships than any line in the world.",
+  "styles": [],
+  "architects": [],
+  "address": "16, Strand Rd, Fairley Place, B.B.D. Bagh",
+  "km_from_centre": 1.7,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Mackinnon Mackenzie & Co.",
+   "url": "https://double-dolphin.blogspot.com/2017/07/mackinnon-mackenzie-co-strand-road-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "Q68952555",
   "name": "Maddox Square",
   "lat": 22.526307,
@@ -6533,6 +6961,84 @@
   "date_source": null
  },
  {
+  "id": "gmap-martin-co",
+  "name": "Martin & Co.",
+  "lat": 22.570381,
+  "lng": 88.350551,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "The Mission Row offices of Martin & Co., the firm of Sir Rajendra Nath Mookerjee, which finished the Victoria Memorial, built the Belur Math and the Ochterlony Monument, and laid much of the city's steel and concrete.",
+  "styles": [],
+  "architects": [],
+  "address": "Mission Row",
+  "km_from_centre": 1.4,
+  "image": null,
+  "coord_source": "located to the street, not the building footprint",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Martin & Co.",
+   "url": "https://double-dolphin.blogspot.com/2014/10/martin-co-clive-street.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
+  "id": "gmap-mcleod-house",
+  "name": "McLeod House",
+  "lat": 22.571691,
+  "lng": 88.347453,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "The Calcutta house of McLeod & Co., founded in 1887 and one of the largest of the Scottish managing agencies, running collieries, jute mills and the light railways of Bengal.",
+  "styles": [],
+  "architects": [],
+  "address": "McLeod House, Netaji Subhas Road",
+  "km_from_centre": 1.7,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "McLeod House",
+   "url": "https://double-dolphin.blogspot.com/2014/05/mcleod-house-3-ns-road.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
+  "id": "gmap-murshidabad-house",
+  "name": "Murshidabad House",
+  "lat": 22.550442,
+  "lng": 88.355635,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Rajbari, Mansion & House",
+  "description": "The Park Street town house of the Nawabs of Murshidabad — the family the Company displaced at Plassey, keeping a residence in the city that replaced their capital.",
+  "styles": [],
+  "architects": [],
+  "address": "85, Park St, Mullick Bazar, Taltala",
+  "km_from_centre": 2.6,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Murshidabad House",
+   "url": "https://double-dolphin.blogspot.com/2014/10/murshidabad-house-park-street.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "osm-myanmar-buddhist-temple",
   "name": "Myanmar (Burma) Buddhist Temple",
   "lat": 22.57231,
@@ -6600,6 +7106,84 @@
   "wikipedia": null,
   "wikidata": "https://www.wikidata.org/wiki/Q68935124",
   "further_reading": null,
+  "date_source": null
+ },
+ {
+  "id": "gmap-neveh-shalome-synagogue",
+  "name": "Neveh Shalome Synagogue",
+  "lat": 22.5779,
+  "lng": 88.35204,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Other Faiths",
+  "description": "The oldest synagogue foundation in Calcutta, on Brabourne Road, standing a few minutes' walk from both Beth El and the Maghen David — three synagogues for a community that has now almost entirely left.",
+  "styles": [],
+  "architects": [],
+  "address": "Neveh Shalome Synagogue, Brabourne Road",
+  "km_from_centre": 1.4,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Neveh Shalome Synagogue",
+   "url": "https://double-dolphin.blogspot.com/2014/10/neveh-shalome-synagogue-brabourne-road.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
+  "id": "gmap-new-central-telegraph-office",
+  "name": "New Central Telegraph Office",
+  "lat": 22.569076,
+  "lng": 88.347837,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Government, Court & Fort",
+  "description": "The Central Telegraph Office off Dalhousie Square. The older building behind it was designed in 1868 and finished in 1876, when a telegram from here reached London in minutes and a letter took six weeks.",
+  "styles": [],
+  "architects": [],
+  "address": "Red Cross Place",
+  "km_from_centre": 1.7,
+  "image": null,
+  "coord_source": "located to the street, not the building footprint",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "New Central Telegraph Office",
+   "url": "https://double-dolphin.blogspot.com/2014/06/the-new-central-telegraph-office.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
+  "id": "gmap-niyamatullah-ghat-masjid",
+  "name": "Niyamatullah Ghat Masjid",
+  "lat": 22.593144,
+  "lng": 88.35389,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Mosque & Imambara",
+  "description": "A mosque on Nimtala Ghat Street, in the stretch of north Calcutta where the burning ghat, the Ahiritola boat crossing and the potters' quarter run into each other.",
+  "styles": [],
+  "architects": [],
+  "address": "86, Nimtala Ghat St, Jorabagan",
+  "km_from_centre": 2.5,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Niyamatullah Ghat Masjid",
+   "url": "https://double-dolphin.blogspot.com/2016/01/niyamatullah-ghat-masjid-mosque-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
   "date_source": null
  },
  {
@@ -6782,6 +7366,32 @@
   "wikipedia": null,
   "wikidata": "https://www.wikidata.org/wiki/Q96738958",
   "further_reading": null,
+  "date_source": null
+ },
+ {
+  "id": "gmap-ralli-brothers",
+  "name": "Ralli Brothers",
+  "lat": 22.578844,
+  "lng": 88.349896,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "The Calcutta office of Ralli Brothers, the Greek trading house founded by five brothers from Chios that became one of the largest exporters of jute and grain out of Bengal.",
+  "styles": [],
+  "architects": [],
+  "address": "Clive Row",
+  "km_from_centre": 1.6,
+  "image": null,
+  "coord_source": "located to the street, not the building footprint",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Ralli Brothers",
+   "url": "https://double-dolphin.blogspot.com/2014/09/ralli-brothers-hare-street.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
   "date_source": null
  },
  {
@@ -7453,6 +8063,32 @@
   "date_source": null
  },
  {
+  "id": "gmap-the-metropolitan-nursing-home",
+  "name": "The Metropolitan Nursing Home",
+  "lat": 22.545084,
+  "lng": 88.351834,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Hospital & Medical",
+  "description": "The Metropolitan Laboratory and Nursing Home on Theatre Road, now Shakespeare Sarani — one of the private medical establishments that grew up around the European quarter.",
+  "styles": [],
+  "architects": [],
+  "address": "18, Shakespeare Sarani",
+  "km_from_centre": 3.3,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "The Metropolitan Nursing Home",
+   "url": "https://double-dolphin.blogspot.com/2016/03/the-metropolitan-laboratory-nursing-home-theatre-road-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "Q5594620",
   "name": "The Oberoi Grand",
   "lat": 22.56159,
@@ -7541,6 +8177,58 @@
   "date_source": null
  },
  {
+  "id": "gmap-turner-morrison-co",
+  "name": "Turner Morrison & Co.",
+  "lat": 22.5748,
+  "lng": 88.34884,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "The Lyons Range offices of Turner Morrison, established in Calcutta in 1864 and within thirteen years the third largest shipping agency in the port.",
+  "styles": [],
+  "architects": [],
+  "address": "Lyons Range",
+  "km_from_centre": 1.6,
+  "image": null,
+  "coord_source": "located to the street, not the building footprint",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Turner Morrison & Co.",
+   "url": "https://double-dolphin.blogspot.com/2014/10/turner-morrison-co-lyons-range.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
+  "id": "gmap-wallace-house",
+  "name": "Wallace House",
+  "lat": 22.572434,
+  "lng": 88.347054,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Commerce, Market & Hotel",
+  "description": "The Calcutta house of Shaw Wallace, the firm Robert Gordon Shaw and Charles Wallace built from 1886 out of tea, jute, timber and later oil. It still stands at 4 Bankshall Street.",
+  "styles": [],
+  "architects": [],
+  "address": "4, Bankshall St, Fairley Place, B.B.D. Bagh",
+  "km_from_centre": 1.7,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Wallace House",
+   "url": "https://double-dolphin.blogspot.com/2014/07/wallace-house-4-bankshall-street.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
+  "date_source": null
+ },
+ {
   "id": "Q56153143",
   "name": "Warren Hastings' House",
   "lat": 22.722332,
@@ -7604,6 +8292,32 @@
   "wikipedia": null,
   "wikidata": "https://www.wikidata.org/wiki/Q79458603",
   "further_reading": null,
+  "date_source": null
+ },
+ {
+  "id": "gmap-zohra-begum-masjid",
+  "name": "Zohra Begum Masjid",
+  "lat": 22.503771,
+  "lng": 88.339125,
+  "era": "Date Undetermined",
+  "year": null,
+  "built": "Date not recorded",
+  "category": "Mosque & Imambara",
+  "description": "A mosque in Tollygunge, in the quarter settled by the family and retainers of Tipu Sultan after their exile to Bengal.",
+  "styles": [],
+  "architects": [],
+  "address": "Zohora Begum Jame Masjid, Tollygunge",
+  "km_from_centre": 8.1,
+  "image": null,
+  "coord_source": "confirmed against the street address",
+  "also_known_as": null,
+  "wikipedia": null,
+  "wikidata": null,
+  "further_reading": {
+   "title": "Zohra Begum Masjid",
+   "url": "https://double-dolphin.blogspot.com/2015/10/zohra-begum-masjid-tollygunge-calcutta-kolkata.html",
+   "credit": "Deepanjan Ghosh — double-dolphin.blogspot.com"
+  },
   "date_source": null
  }
 ]
