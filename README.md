@@ -1,6 +1,6 @@
 # The Many Calcuttas — a city in layers
 
-An interactive map of the heritage of Kolkata and its suburbs: 244 sites, each
+An interactive map of the heritage of Kolkata and its suburbs: 247 sites, each
 plotted where it stands and coloured by the era that built it.
 
 ![The map](preview.jpg)
@@ -28,10 +28,11 @@ host. If you do, set `og:image` in `index.html` to the absolute URL of
 
 | | |
 |---|---|
-| Sites | 244 |
-| With a construction date | 227 |
-| With a photograph | 178 |
-| With a street address | 180 |
+| Sites | 247 |
+| With a construction date | 229 |
+| With a photograph | 181 |
+| With a street address | 182 |
+| Statutorily protected (ASI or state) | 17 |
 | With a further-reading link | 69 |
 | Coverage | ~25 km from Lal Dighi, plus Achipur at 27 km |
 
@@ -53,7 +54,7 @@ always says what the building is.
 | [KMC graded list of heritage buildings](https://wbhc.in/files/contents/graded_list_of_heritage_buildings_grade_i_iia_iib_final.pdf) (42-page PDF) | The statutory register — 762 entries, giving the scope of what counts as heritage here and a classification of each building |
 | [Wikidata](https://query.wikidata.org/) | Coordinates, construction dates, architects, architectural styles, images |
 | [English Wikipedia](https://en.wikipedia.org/w/api.php) | The descriptions and lead photographs |
-| [Archaeological Survey of India](https://asi.nic.in/) | The official list of Monuments of National Importance in West Bengal, used to verify the map's ASI sites and their numbers |
+| [Archaeological Survey of India](https://asi.nic.in/) | The official lists of Monuments of National Importance and State Protected Monuments in West Bengal, used to verify the protected sites and their numbers |
 | West Bengal Heritage Commission / Indian Railways heritage inventory | Reached through their Wikidata heritage designations |
 | [double-dolphin.blogspot.com](https://double-dolphin.blogspot.com/) | Deepanjan Ghosh's [heritage index](https://double-dolphin.blogspot.com/p/blog-page_27.html), linked as further reading from 39 sites |
 | OpenStreetMap | Coordinates for sites Wikidata does not carry, and the basemap the site renders on |
@@ -97,15 +98,27 @@ Simla, the Chartered Bank, Peliti's, the Army & Navy Stores, the United Service
 Club, Posta Rajbari among them — because nothing found for them could be
 confirmed, and a pin that cannot be confirmed is worse than no pin.
 
-### Checked against the ASI
+### Checked against the statutory lists
 
-Of the 147 entries on the ASI's list of Monuments of National Importance in West
-Bengal, **eleven fall within 25 km of Lal Dighi, and all eleven are on this
-map** — the six in Kolkata district (Metcalfe Hall, St. John's Church, the
-Currency Building, the Asiatic Society, and the Magen David and Beth El
-synagogues), Sri Mayer Ghat, Clive's House at Dum Dum, the 26 Shiva temples at
-Khardah, Warren Hastings' House at Barasat, and the Danish cemetery at
-Serampore. Each carries its ASI number in the `asi_id` field and on its card.
+Both of the ASI's published lists for West Bengal were parsed and reconciled
+against the map, entry by entry.
+
+**Monuments of National Importance: eleven of the 147 fall within 25 km of Lal
+Dighi, and all eleven are here** — the six in Kolkata district (Metcalfe Hall,
+St. John's Church, the Currency Building, the Asiatic Society, and the Magen
+David and Beth El synagogues), Sri Mayer Ghat, Clive's House at Dum Dum, the 26
+Shiva temples at Khardah, Warren Hastings' House at Barasat, and the Danish
+cemetery at Serampore.
+
+**State Protected Monuments: six in range, all here** — South Park Street
+cemetery, Henry Martyn's Pagoda at Serampore, the Gourchandra and Krishnachandra
+temples at Chatra, and the three tombs in St. John's churchyard. The state list
+carries the churchyard both as a group (S-WB-47) and as its three named tombs;
+this map follows the tombs.
+
+Each of the seventeen carries its official number in `monument_id` and its
+designation in `protection`, both shown on the card. Protected monuments are
+never dropped for want of a date — the designation is itself the evidence.
 
 Reconciling the two lists also caught an error. Wikidata places the Beth El
 Synagogue 610 m from where it stands; the ASI list and OpenStreetMap agree with
@@ -119,10 +132,10 @@ Ghat at 336 m, where the two sources differ over a stretch of riverbank.
 English Wikipedia, Wikidata, the KMC register and the heritage blogs were all
 searched for every undated entry, and 118 that none of them could date were
 dropped. Two things are exempt. Hand-added sites stay, because each was put on
-the map deliberately and has an account behind it. So do ASI Monuments of
-National Importance — the designation is itself the evidence, and no published
-source gives a year for Warren Hastings' villa at Barasat, Clive's House at Dum
-Dum or the twenty-six Shiva temples at Khardah.
+the map deliberately and has an account behind it. So does anything
+statutorily protected, national or state — no published source gives a year for
+Warren Hastings' villa at Barasat, the twenty-six Shiva temples at Khardah or
+the Gourchandra temple at Chatra, and all three plainly belong here.
 
 Dating the undated is slow work done one site at a time, because the traps are
 consistent. A firm's founding date is not its building's date — McLeod & Co.
@@ -133,11 +146,9 @@ the jail was built in 1906. Bulk text-matching produced a confident wrong answer
 nearly every time it produced one at all, so every date here was read in context
 and accepted or rejected by hand, and recorded in `scripts/overrides.json`.
 
-The rule still costs something. The tombs of Charles Watson and Frances Johnson
-are State Protected Monuments of the 1750s and 1760s, and they went, because
-State Protection is a different list from the ASI's and neither carries a date.
-The exemption in `build_data.py` is one line, and adding a designation to it is
-one more.
+Reconciling against the statutory lists also turned up dates the earlier passes
+had missed: Admiral Watson died in Calcutta in 1757 and Begum Johnson in 1812,
+which fixes both tombs in time even though neither list records a year.
 
 ## Rebuilding the dataset
 

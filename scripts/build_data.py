@@ -98,10 +98,11 @@ POST_1947_KEEP = {
     "Q6476396",    # Lake Kalibari
 }
 
-# Official Archaeological Survey of India monument numbers, checked against the
-# ASI's own list of Monuments of National Importance in West Bengal. All eleven
-# that fall inside the coverage area are on the map.
-ASI_IDS = {
+# Statutory monument numbers, checked against the ASI's published lists for West
+# Bengal — Monuments of National Importance (N-WB-*) and State Protected
+# Monuments (S-WB-*). Every one of either list that falls inside the coverage
+# area is on the map.
+PROTECTED = {
     "Q6823351":  "N-WB-75",   # Metcalfe Hall
     "Q3051967":  "N-WB-76",   # St. John's Church
     "Q56245193": "N-WB-77",   # Currency Building
@@ -113,6 +114,15 @@ ASI_IDS = {
     "Q56152661": "N-WB-4",    # 26 Shiva temples, Khardah
     "Q56153143": "N-WB-5",    # Warren Hastings' House, Barasat
     "Q56235890": "N-WB-71",   # Danish Cemetery, Serampore
+
+    # State Protected. S-WB-47 covers the St. John's churchyard group as a
+    # whole; a, b and c are its three named tombs, which is how they appear here.
+    "Q56424733": "S-WB-47-a", # Tomb of Charles Watson
+    "Q44143387": "S-WB-47-b", # Job Charnock's Mausoleum
+    "Q56424794": "S-WB-47-c", # Tomb of Frances Johnson
+    "Q2972549":  "S-WB-46",   # South Park Street Cemetery
+    "Q66809965": "S-WB-51",   # Henry Martyn's Pagoda
+    "Q66809912": "S-WB-55",   # Gourchandra and Krishnachandra temples
 }
 
 # Pairs of records that denote the same building or the same institution at the
@@ -465,7 +475,10 @@ def main():
             "image": thumbnail(override.get("image") or page.get("image") or item.get("image")),
             "also_known_as": item.get("also_known_as"),
             "wikipedia": item.get("article"),
-            "asi_id": ASI_IDS.get(item["qid"]),
+            "monument_id": PROTECTED.get(item["qid"]),
+            "protection": next((h for h in ("Monument of National Importance",
+                                            "State Protected Monument")
+                                if h in item.get("heritage", [])), None),
             "wikidata": (f"https://www.wikidata.org/wiki/{item['qid']}"
                          if re.fullmatch(r"Q\d+", item["qid"]) else None),
             "further_reading": blog_links.get(item["qid"]),
@@ -476,11 +489,11 @@ def main():
     # blogs, the KMC register and Wikidata were all searched, and for these the
     # year simply is not recorded. Hand-added sites are kept regardless — they
     # were put on the map deliberately and each has an account behind it.
-    # ASI Monuments of National Importance are kept whether or not anyone has
-    # published a date for them: the designation is itself the evidence.
+    # Statutorily protected monuments — national or state — are kept whether or
+    # not anyone has published a date for them: the designation is the evidence.
     keep_undated = {i["qid"] for i in load_manual()}
-    keep_undated |= {i["qid"] for i in items
-                     if "Monument of National Importance" in i.get("heritage", [])}
+    statutory = {"Monument of National Importance", "State Protected Monument"}
+    keep_undated |= {i["qid"] for i in items if statutory & set(i.get("heritage", []))}
     undated = [m for m in monuments if not m["year"] and m["id"] not in keep_undated]
     if undated:
         print(f"  dropped as undated: {len(undated)}")

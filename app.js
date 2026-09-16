@@ -258,7 +258,7 @@ function openCard(monument) {
   const rows = [
     ['Address', monument.address],
     ['Also listed as', monument.also_known_as && monument.also_known_as.join(', ')],
-    ['ASI monument', monument.asi_id && `${monument.asi_id} — of National Importance`],
+    ['Protected', monument.monument_id && `${monument.monument_id} — ${monument.protection}`],
     ['Style', monument.styles && monument.styles.length ? monument.styles.join(', ') : null],
     ['Architect', monument.architects && monument.architects.length ? monument.architects.join(', ') : null],
     ['Distance', `${monument.km_from_centre} km from Lal Dighi`],
