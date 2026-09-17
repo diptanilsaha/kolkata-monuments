@@ -85,7 +85,40 @@ if (typeof L === 'undefined' || typeof L.markerClusterGroup !== 'function' || ty
 
 const isPhone = () => window.matchMedia('(max-width: 860px)').matches;
 
-const map = L.map('map', { zoomControl: true, minZoom: 9 }).setView(CENTRE, 12);
+/* Leaflet moves its panes and tiles with translate3d, which hands each one to
+ * the GPU compositor. Android WebView — the engine behind the in-app browsers
+ * in Twitter and the rest — has long-standing trouble with those layers: the
+ * map paints once and then the whole surface turns black a moment later.
+ * Leaflet can position panes with plain left/top instead, which costs the zoom
+ * and fade animations and nothing else.
+ *
+ * There is no feature test for "this compositor will fail", so this reads the
+ * user agent: Android WebView is the only engine that puts `wv` in it, which
+ * leaves real Chrome and Chrome Custom Tabs on the fast path. ?safe=1 and
+ * ?safe=0 force the choice either way, so the mode can be tested on a device
+ * that cannot be attached to a debugger.
+ */
+const forcedSafe = new URLSearchParams(window.location.search).get('safe');
+const isAndroidWebView = /Android/.test(navigator.userAgent) && /;\s*wv[;)]/.test(navigator.userAgent);
+const safeRender = forcedSafe === '1' || (forcedSafe !== '0' && isAndroidWebView);
+
+if (safeRender) L.Browser.any3d = false;
+
+const map = L.map('map', {
+  zoomControl: true,
+  minZoom: 9,
+  zoomAnimation: !safeRender,
+  fadeAnimation: !safeRender,
+  markerZoomAnimation: !safeRender,
+}).setView(CENTRE, 12);
+
+// Only say which path is in use when it was asked for explicitly, so the two
+// can be told apart on a phone.
+if (forcedSafe !== null) {
+  showMapMessage(safeRender
+    ? 'Safe rendering on: no GPU layers, no zoom animation.'
+    : 'Safe rendering off: normal GPU rendering.');
+}
 
 // On a phone the sidebar covers the whole screen. Collapse it before the
 // dataset is fetched, so a slow or failed fetch still leaves the map visible.
@@ -176,6 +209,7 @@ function rebuildLayers() {
       disableClusteringAtZoom: 16,
       showCoverageOnHover: false,
       spiderfyOnMaxZoom: true,
+      animate: !safeRender,
       iconCreateFunction: clusterIconFactory(colour),
     });
 
@@ -411,7 +445,9 @@ function flyTo(monument) {
     if (layer) layer.cluster.zoomToShowLayer(entry.marker, () => highlightPin(monument.id));
   };
   map.once('moveend', state.pendingMoveEnd);
-  map.flyTo([monument.lat, monument.lng], Math.max(map.getZoom(), 16), { duration: 0.9 });
+  const zoom = Math.max(map.getZoom(), 16);
+  if (safeRender) map.setView([monument.lat, monument.lng], zoom, { animate: false });
+  else map.flyTo([monument.lat, monument.lng], zoom, { duration: 0.9 });
 }
 
 /* ────────────────────────── search ────────────────────────── */
