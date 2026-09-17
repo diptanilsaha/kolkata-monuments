@@ -1,4 +1,10 @@
 :root {
+  /* Android WebView — the in-app browser in Twitter and the rest — applies its
+     own algorithmic darkening to any page that does not say it already has a
+     dark theme. On a page this dark it crushes everything, tiles included, to
+     black. Declaring the scheme turns that off. */
+  color-scheme: dark;
+
   --ink: #141416;
   --panel: rgba(22, 22, 24, 0.94);
   --panel-solid: #1c1c1e;
