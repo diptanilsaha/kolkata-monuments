@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <title>Rendering probe</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #141416;
+      color: #f2f2f4;
+      font: 14px/1.5 -apple-system, "Segoe UI", Roboto, sans-serif;
+      padding: 16px;
+    }
+    h1 { font-size: 17px; margin-bottom: 4px; }
+    .intro { color: #9a9aa2; font-size: 12.5px; margin-bottom: 18px; }
+    section { margin-bottom: 18px; }
+    .label { font-size: 12px; font-weight: 700; margin-bottom: 5px; }
+    .note { font-size: 11.5px; color: #9a9aa2; margin-top: 4px; }
+    .box { height: 84px; border-radius: 10px; overflow: hidden; position: relative; }
+
+    /* A: a plain saturated colour. */
+    #a { background: #3a7d44; }
+
+    /* B: a light panel. Algorithmic darkening shows up here first. */
+    #b { background: #f0e6d2; color: #222; display: flex; align-items: center; justify-content: center; font-weight: 700; }
+
+    /* C: a raster tile, straight from the tile server. */
+    #c img { width: 84px; height: 84px; display: block; }
+
+    /* D: one SVG carrying a CSS drop-shadow filter. */
+    #d { background: #2a4a6a; display: flex; align-items: center; justify-content: center; }
+    #d svg { filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.45)); }
+
+    /* E: sixty of them — the load the real map puts on the compositor. */
+    #e { background: #2a4a6a; display: flex; flex-wrap: wrap; gap: 3px; padding: 5px; height: auto; }
+    #e svg { filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.45)); }
+
+    /* F: backdrop-filter over a gradient. */
+    #f { background: linear-gradient(45deg, #e8833a, #4a8fe0); }
+    #f .glass {
+      position: absolute; inset: 14px;
+      border-radius: 8px;
+      background: rgba(22, 22, 24, 0.6);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px;
+    }
+
+    /* G: a heavy box-shadow. */
+    #g { background: #1c1c1e; display: flex; align-items: center; justify-content: center; }
+    #g .chip {
+      width: 130px; height: 44px; border-radius: 10px; background: #e8833a;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.8);
+    }
+
+    /* H: Leaflet itself, with the real pin markup. */
+    #map { height: 240px; border-radius: 10px; }
+    .custom-pin .pin-wrap { position: relative; }
+    .custom-pin .pin-wrap svg { display: block; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.45)); }
+
+    #facts { font-size: 11.5px; line-height: 1.7; color: #c8c8d0; word-break: break-word; }
+    #facts b { color: #e8833a; }
+  </style>
+</head>
+<body>
+  <h1>Rendering probe</h1>
+  <p class="intro">
+    Screenshot this whole page, scrolling as needed. Whichever panels are black
+    or wrongly coloured is the answer.
+  </p>
+
+  <section><div class="label">A — plain green</div><div class="box" id="a"></div>
+    <div class="note">Black here means the whole compositor has failed.</div></section>
+
+  <section><div class="label">B — light cream panel</div><div class="box" id="b">SHOULD BE CREAM</div>
+    <div class="note">Dark or grey here means WebView is force-darkening the page.</div></section>
+
+  <section><div class="label">C — map tiles (plain img)</div><div class="box" id="c"></div>
+    <div class="note">Dark here means WebView is darkening images too.</div></section>
+
+  <section><div class="label">D — one SVG with drop-shadow</div><div class="box" id="d"></div></section>
+
+  <section><div class="label">E — sixty SVGs with drop-shadow</div><div class="box" id="e"></div>
+    <div class="note">Black here is the compositor buckling under filtered layers.</div></section>
+
+  <section><div class="label">F — backdrop-filter blur</div><div class="box" id="f"><div class="glass">GLASS OVER GRADIENT</div></div>
+    <div class="note">A solid black box here is the known WebView backdrop-filter bug.</div></section>
+
+  <section><div class="label">G — heavy box-shadow</div><div class="box" id="g"><div class="chip"></div></div></section>
+
+  <section><div class="label">H — Leaflet with 250 real pins</div><div id="map"></div>
+    <div class="note">Wait ten seconds. If this goes black, it reproduces the bug.</div></section>
+
+  <section><div class="label">Environment</div><div id="facts">collecting…</div></section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const PIN = (colour) => `<div class="pin-wrap">
+      <svg width="28" height="38" viewBox="0 0 28 38" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 0C6.27 0 0 6.27 0 14c0 10.5 14 24 14 24s14-13.5 14-24c0-7.73-6.27-14-14-14z" fill="${colour}"/>
+        <circle cx="14" cy="14" r="9.4" fill="#fdfcfa"/>
+      </svg></div>`;
+    const COLOURS = ['#c0392b', '#e8833a', '#4aa96c', '#3d9ae0', '#a370d8'];
+
+    // C — a real tile, fetched the same way the map fetches them.
+    document.getElementById('c').innerHTML =
+      '<img alt="" src="https://tile.openstreetmap.org/12/2936/1833.png" />';
+
+    // D and E — one filtered SVG, then sixty.
+    const small = (c) => `<svg width="20" height="27" viewBox="0 0 28 38" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 0C6.27 0 0 6.27 0 14c0 10.5 14 24 14 24s14-13.5 14-24c0-7.73-6.27-14-14-14z" fill="${c}"/>
+      <circle cx="14" cy="14" r="9.4" fill="#fdfcfa"/></svg>`;
+    document.getElementById('d').innerHTML = small('#e8833a');
+    document.getElementById('e').innerHTML =
+      Array.from({ length: 60 }, (_, i) => small(COLOURS[i % COLOURS.length])).join('');
+
+    // H — Leaflet carrying the same pin markup the real map uses.
+    let mapNote = 'not attempted';
+    if (typeof L !== 'undefined') {
+      try {
+        const map = L.map('map', { zoomControl: false }).setView([22.5726, 88.3639], 12);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+        for (let i = 0; i < 250; i++) {
+          L.marker(
+            [22.5726 + (Math.random() - 0.5) * 0.28, 88.3639 + (Math.random() - 0.5) * 0.28],
+            { icon: L.divIcon({ className: 'custom-pin', html: PIN(COLOURS[i % COLOURS.length]), iconSize: [28, 38], iconAnchor: [14, 38] }) }
+          ).addTo(map);
+        }
+        mapNote = 'built 250 markers';
+      } catch (err) {
+        mapNote = 'threw: ' + err.message;
+      }
+    } else {
+      mapNote = 'Leaflet did not load';
+    }
+
+    const facts = {
+      'user agent': navigator.userAgent,
+      'viewport': innerWidth + ' x ' + innerHeight,
+      'visual viewport': window.visualViewport
+        ? Math.round(visualViewport.width) + ' x ' + Math.round(visualViewport.height) : 'n/a',
+      'device pixel ratio': devicePixelRatio,
+      'device memory (GB)': navigator.deviceMemory || 'not reported',
+      'prefers dark': matchMedia('(prefers-color-scheme: dark)').matches,
+      'matches max-width 860px': matchMedia('(max-width: 860px)').matches,
+      'computed color-scheme': getComputedStyle(document.documentElement).colorScheme,
+      'backdrop-filter supported': CSS.supports('backdrop-filter', 'blur(1px)')
+        || CSS.supports('-webkit-backdrop-filter', 'blur(1px)'),
+      'leaflet': mapNote,
+    };
+    document.getElementById('facts').innerHTML = Object.entries(facts)
+      .map(([k, v]) => '<b>' + k + ':</b> ' + String(v)).join('<br>');
+
+    addEventListener('error', (e) => {
+      document.getElementById('facts').innerHTML += '<br><b>page error:</b> ' + e.message;
+    });
+  </script>
+</body>
+</html>

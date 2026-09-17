@@ -460,6 +460,14 @@ body.card-open #credit { opacity: 0; pointer-events: none; }
   .search-results-dropdown { background: #262629; }
   .close-card-btn { background: rgba(0, 0, 0, 0.72); }
 
+  /* Every pin carries a drop-shadow, and a CSS filter puts each one on its own
+     composited layer. Several dozen of those at once is enough to make an
+     Android WebView's compositor give up and paint the whole surface black,
+     which is why the map appears and then goes dark a moment later. The pins
+     read fine without it — a white disc on a coloured teardrop. The selected
+     pin keeps its glow; there is only ever one of those. */
+  .pin-wrap svg { filter: none; }
+
   #sidebar {
     position: absolute;
     inset: 0;
