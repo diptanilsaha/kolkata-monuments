@@ -220,9 +220,28 @@ body {
 
 /* ───────────────────────── map ───────────────────────── */
 
-#map { flex: 1; height: 100%; background: #12161c; }
+#map { flex: 1; height: 100%; position: relative; background: #12161c; }
 .leaflet-container { font-family: inherit; background: #12161c; }
 .leaflet-control-attribution { font-size: 10px; }
+
+.map-message {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 26px;
+  z-index: 3000;
+  margin: 0 auto;
+  max-width: 420px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--panel-solid);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  text-align: center;
+}
 
 .pin-wrap { position: relative; }
 .pin-wrap svg { display: block; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.45)); }
@@ -414,6 +433,26 @@ body.card-open #credit { opacity: 0; pointer-events: none; }
 
 @media (max-width: 860px) {
   :root { --sidebar-w: 100%; }
+
+  /* Android WebViews — which is what the in-app browsers in Twitter, Instagram
+     and the rest are — paint a backdrop-filter element as a solid black box on
+     a good number of devices. The sidebar covers the whole screen at this
+     width, so that black box swallows the map. Nothing sits behind these
+     panels here for a blur to pick up anyway, so make them opaque instead. */
+  #sidebar,
+  #sidebar-toggle,
+  #info-card,
+  #credit,
+  .search-results-dropdown,
+  .close-card-btn {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  #sidebar, #info-card { background: var(--panel-solid); }
+  #sidebar-toggle { background: #1c1c1e; }
+  #credit { background: #161618; }
+  .search-results-dropdown { background: #262629; }
+  .close-card-btn { background: rgba(0, 0, 0, 0.72); }
 
   #sidebar {
     position: absolute;

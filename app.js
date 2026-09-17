@@ -69,7 +69,39 @@ const state = {
   pendingMoveEnd: null,
 };
 
+function showMapMessage(text) {
+  const el = document.createElement('p');
+  el.className = 'map-message';
+  el.textContent = text;
+  document.getElementById('map').appendChild(el);
+}
+
+// The map is the whole page, so a library that never arrived leaves nothing but
+// a black rectangle. Say what happened instead.
+if (typeof L === 'undefined' || typeof L.markerClusterGroup !== 'function' || typeof Fuse === 'undefined') {
+  showMapMessage('The map libraries could not be loaded. Check the connection and reload.');
+  throw new Error('Leaflet, markercluster or Fuse failed to load');
+}
+
+const isPhone = () => window.matchMedia('(max-width: 860px)').matches;
+
 const map = L.map('map', { zoomControl: true, minZoom: 9 }).setView(CENTRE, 12);
+
+// On a phone the sidebar covers the whole screen. Collapse it before the
+// dataset is fetched, so a slow or failed fetch still leaves the map visible.
+if (isPhone()) document.getElementById('sidebar').classList.add('collapsed');
+
+// An in-app browser slides its toolbar in and out under the page, which changes
+// the viewport height without always firing the resize Leaflet listens for. A
+// map left sized to a stale viewport draws as an empty box, so re-measure.
+let remeasureTimer = null;
+function remeasure() {
+  clearTimeout(remeasureTimer);
+  remeasureTimer = setTimeout(() => map.invalidateSize({ animate: false }), 150);
+}
+window.addEventListener('orientationchange', remeasure);
+window.addEventListener('pageshow', remeasure);
+if (window.visualViewport) window.visualViewport.addEventListener('resize', remeasure);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -284,7 +316,7 @@ function openCard(monument) {
   card.scrollTop = 0;
   card.classList.add('active');
   document.body.classList.add('card-open');
-  if (window.innerWidth <= 860) document.getElementById('sidebar').classList.add('collapsed');
+  if (isPhone()) document.getElementById('sidebar').classList.add('collapsed');
 
   history.replaceState(null, '', `#${monument.id}`);
   highlightPin(monument.id);
@@ -498,10 +530,6 @@ Promise.all([
     });
 
     rebuildLayers();
-
-    // On a phone the sidebar covers the whole screen — show the map first.
-    if (window.innerWidth <= 860) document.getElementById('sidebar').classList.add('collapsed');
-
     openFromHash();
     // A fragment-only change doesn't reload the page, so links between sites
     // (and the back button) have to be handled here.
@@ -509,6 +537,8 @@ Promise.all([
   })
   .catch((err) => {
     console.error('Could not load the dataset:', err);
-    document.getElementById('layer-list').textContent =
+    const message =
       'The dataset failed to load. If you opened this file directly, serve the folder over HTTP instead.';
+    document.getElementById('layer-list').textContent = message;
+    showMapMessage(message);
   });
